@@ -74,18 +74,24 @@ Major Infractions
    * - Infraction
      - Examples
    * - False or unnecessary escalation
-     - Escalating an incident to Tier 2 or Tier 3 that does not meet the escalation criteria defined in KB-155. 
-        This wastes senior engineering resources and delays resolution of genuine critical incidents.
+     - Escalating an incident to Tier 2 or Tier 3 that does not meet 
+       the escalation criteria defined in KB-155. This wastes
+       senior engineering resources and delays resolution of genuine
+       critical incidents.
    * - Failure to resolve within SLA
-     - Exceeding the target resolution time for a Tier 1 incident without documented reason or approved escalation
+     - Exceeding the target resolution time for a Tier 1 incident 
+       without documented reason or approved escalation
    * - Repeated minor infractions
-     - Accumulating 3 or more minor infractions within a 90-day rolling period
+     - Accumulating 3 or more minor infractions within a 90-day 
+       rolling period
    * - Unauthorized system changes
-     - Making changes to client servers that are not within the scope of the assigned incident
+     - Making changes to client servers that are not within the scope 
+       of the assigned incident
    * - Negligent data handling
      - Mishandling or failing to protect confidential client data
    * - Insubordination
-     - Refusal to follow a reasonable directive from a Team Leader or Operations Manager
+     - Refusal to follow a reasonable directive from a Team Leader or 
+       Operations Manager
 
 Critical Infractions (Grounds for Immediate Termination)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
