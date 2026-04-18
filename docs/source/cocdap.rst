@@ -68,7 +68,7 @@ Major Infractions
 """""""""""""""""
 
 .. list-table::
-   :width: 15 30
+   :widths: 15 30
    :header-rows: 1
 
    * - Infraction
@@ -156,7 +156,6 @@ Progressive Discipline Process
 LeanTech IT Solutions follows a progressive discipline model. The level of action taken depends on the severity and frequency of the infraction.
 
 .. list-table::
-   :widths: 15 30 30 25
    :header-rows: 1
 
    * - Step
@@ -193,7 +192,6 @@ False Escalation Policy
 Given the operational impact of unnecessary escalations, the following specific guidelines apply:
 
 .. list-table::
-    :widths: 15 30
     :header-rows: 1
 
     * - Occurrence (within 90-day period)
