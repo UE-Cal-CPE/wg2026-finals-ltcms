@@ -74,7 +74,8 @@ Major Infractions
    * - Infraction
      - Examples
    * - False or unnecessary escalation
-     - Escalating an incident to Tier 2 or Tier 3 that does not meet the escalation criteria defined in KB-155. This wastes senior engineering resources and delays resolution of genuine critical incidents.
+     - Escalating an incident to Tier 2 or Tier 3 that does not meet the escalation criteria defined in KB-155. 
+     This wastes senior engineering resources and delays resolution of genuine critical incidents.
    * - Failure to resolve within SLA
      - Exceeding the target resolution time for a Tier 1 incident without documented reason or approved escalation
    * - Repeated minor infractions
@@ -167,19 +168,15 @@ LeanTech IT Solutions follows a progressive discipline model. The level of actio
      - Minor infractions (1st occurrence)
      - 60 days
    * - Step 2
-     - **Written Warning** — NTE issued first (Section 5). Formal written notice issued by the Team Leader and acknowledged by the employee. 
-     A copy is placed in the employee's HR file.
+     - **Written Warning** — NTE issued first (Section 5). Formal written notice issued by the Team Leader and acknowledged by the employee. A copy is placed in the employee's HR file.
      - Minor infractions (2nd occurrence) or Major infractions (1st occurrence)
      - 90 days
    * - Step 3
-     - **Final Written Warning with Performance Improvement Plan (PIP)** — NTE issued first. 
-     |  A formal PIP is created outlining specific targets the employee must meet within a defined period (typically 30 days). 
-     |  Failure to meet PIP targets proceeds to Step 4.
+     - **Final Written Warning with Performance Improvement Plan (PIP)** — NTE issued first. A formal PIP is created outlining specific targets the employee must meet within a defined period (typically 30 days). Failure to meet PIP targets proceeds to Step 4.
      - Major infractions (2nd occurrence) or continued minor infractions after Step 2
      - 180 days
    * - Step 4
-     - **Suspension or Termination** — NTE issued first. 
-     Depending on the nature and severity of the infraction, the employee may be suspended without pay (3–5 business days) or have their employment terminated.
+     - **Suspension or Termination** — NTE issued first. Depending on the nature and severity of the infraction, the employee may be suspended without pay (3–5 business days) or have their employment terminated.
      - Failure to meet PIP, repeated major infractions, or any critical infraction
      - Permanent
 
@@ -206,10 +203,10 @@ Given the operational impact of unnecessary escalations, the following specific 
       - Suspension or termination
 
 
-* An escalation is classified as "false" when:
-- The incident clearly met Tier 1 criteria as defined in KB-155
-- The engineer did not complete reasonable diagnostic steps before escalating
-- No documented justification was provided for the escalation decision
+An escalation is classified as "false" when:
+* The incident clearly met Tier 1 criteria as defined in KB-155
+* The engineer did not complete reasonable diagnostic steps before escalating
+* No documented justification was provided for the escalation decision
 
 .. note::
     **Important:** If you are unsure whether to escalate, consult with a peer on #tier1-support or contact your Team Leader before escalating. 
