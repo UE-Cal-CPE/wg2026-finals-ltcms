@@ -48,7 +48,7 @@ Minor Infractions
 """""""""""""""""
 
 .. list-table::
-   :widths: 15 30
+   :width: 100%
    :header-rows: 1
 
    * - Infraction
@@ -68,7 +68,7 @@ Major Infractions
 """""""""""""""""
 
 .. list-table::
-   :widths: 15 40
+   :width: 100%
    :header-rows: 1
 
    * - Infraction
@@ -91,7 +91,7 @@ Critical Infractions (Grounds for Immediate Termination)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. list-table::
-   :widths: 15 30
+   :width: 100%
    :header-rows: 1
 
    * - Infraction
@@ -160,7 +160,7 @@ Progressive Discipline Process
 LeanTech IT Solutions follows a progressive discipline model. The level of action taken depends on the severity and frequency of the infraction.
 
 .. list-table::
-   :widths: 15 70 30 15
+   :width: 100%
    :header-rows: 1
 
    * - Step
@@ -211,10 +211,10 @@ Given the operational impact of unnecessary escalations, the following specific 
     * - 4th false escalation
       - Suspension or termination
 
-  An escalation is classified as "false" when:
-* The incident clearly met Tier 1 criteria as defined in KB-155
-* The engineer did not complete reasonable diagnostic steps before escalating
-* No documented justification was provided for the escalation decision
+* An escalation is classified as "false" when:
+- The incident clearly met Tier 1 criteria as defined in KB-155
+- The engineer did not complete reasonable diagnostic steps before escalating
+- No documented justification was provided for the escalation decision
 
 .. note::
     Important: If you are unsure whether to escalate, consult with a peer on #tier1-support or contact your Team Leader before escalating. 
