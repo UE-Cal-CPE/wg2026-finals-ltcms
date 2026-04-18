@@ -68,7 +68,7 @@ Major Infractions
 """""""""""""""""
 
 .. list-table::
-   :width: 100%
+   :width: 15 30
    :header-rows: 1
 
    * - Infraction
@@ -181,7 +181,7 @@ LeanTech IT Solutions follows a progressive discipline model. The level of actio
      - 180 days
    * - Step 4
      - **Suspension or Termination** — NTE issued first. 
-       Depending on the nature and severity of the infraction, the employee may be suspended without pay (3–5 business days) or have their employment terminated.
+     Depending on the nature and severity of the infraction, the employee may be suspended without pay (3–5 business days) or have their employment terminated.
      - Failure to meet PIP, repeated major infractions, or any critical infraction
      - Permanent
 
