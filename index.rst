@@ -23,4 +23,4 @@ Contents
 
    about/usage
    about/api
-   source/coc
+   coc
