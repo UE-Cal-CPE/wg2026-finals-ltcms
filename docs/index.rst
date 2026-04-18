@@ -262,8 +262,6 @@ Team Leader or Operations Manager.*
 
    This project is under active development.
 
-Contents
---------
 
 .. toctree::
    :maxdepth: 1
