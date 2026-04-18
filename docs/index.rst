@@ -262,21 +262,32 @@ Team Leader or Operations Manager.*
 
    This project is under active development.
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Human Resources
+
+   source/hr-201
 
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: General
+   :caption: Knowledge Base
 
-   source/hr-201
    source/kb-102
    source/kb-155
    source/kb-253
    source/kb-310
    source/kb-450
    source/kb-601
+
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Standard Operating Procedure
+
    source/sop-7005
    source/sop-7010
    source/sop-7015
-   .. :caption: General
    
