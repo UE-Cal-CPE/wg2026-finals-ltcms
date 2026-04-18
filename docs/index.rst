@@ -17,6 +17,7 @@ Contents
 --------
 
 .. toctree::
+   :caption: General
    :maxdepth: 1
 
    source/cocdap
