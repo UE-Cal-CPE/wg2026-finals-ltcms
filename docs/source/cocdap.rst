@@ -122,17 +122,20 @@ NTE Process
 * A factual description of what occurred
 * A request for the employee's written explanation
 
-2. **Response Period** — The employee has **48 hours** (2 business days) from receipt of the NTE to submit a written explanation to their Team Leader or directly to HR. The explanation should include:
+2. **Response Period** — The employee has **48 hours** (2 business days) from receipt of the NTE to submit a written explanation to their Team Leader or directly to HR. 
+  The explanation should include:
 * The employee's account of what happened
 * Any context, mitigating circumstances, or justification for the action taken
 * Supporting evidence, if applicable (e.g., ticket logs, screenshots, chat transcripts)
 
-3. **Administrative Hearing** — If the written explanation does not sufficiently resolve the matter, an administrative hearing will be scheduled within **5 business days** of receiving the employee's response. The hearing panel will consist of:
+3. **Administrative Hearing** — If the written explanation does not sufficiently resolve the matter, an administrative hearing will be scheduled within **5 business days** 
+  of receiving the employee's response. The hearing panel will consist of:
 * The employee's Team Leader
 * A representative from Human Resources
 * The Operations Manager (for Major and Critical infractions)
 
-4. **Decision** — After reviewing the employee's explanation and/or conducting the hearing, the panel will issue a written decision within **3 business days**. The decision will include:
+4. **Decision** — After reviewing the employee's explanation and/or conducting the hearing, the panel will issue a written decision within **3 business days**. 
+  The decision will include:
 * Whether the infraction is sustained or dismissed
 * The specific disciplinary action to be imposed (if any)
 * The basis for the decision
@@ -170,17 +173,17 @@ LeanTech IT Solutions follows a progressive discipline model. The level of actio
      - 60 days
    * - Step 2
      - **Written Warning** — NTE issued first (Section 5). Formal written notice issued by the Team Leader and acknowledged by the employee. 
-     A copy is placed in the employee's HR file.
+        A copy is placed in the employee's HR file.
      - Minor infractions (2nd occurrence) or Major infractions (1st occurrence)
      - 90 days
    * - Step 3
      - **Final Written Warning with Performance Improvement Plan (PIP)** — NTE issued first. A formal PIP is created outlining specific targets the employee
-     must meet within a defined period (typically 30 days). Failure to meet PIP targets proceeds to Step 4.
+        must meet within a defined period (typically 30 days). Failure to meet PIP targets proceeds to Step 4.
      - Major infractions (2nd occurrence) or continued minor infractions after Step 2
      - 180 days
    * - Step 4
      - **Suspension or Termination** — NTE issued first. Depending on the nature and severity of the infraction, 
-     the employee may be suspended without pay (3–5 business days) or have their employment terminated.
+        the employee may be suspended without pay (3–5 business days) or have their employment terminated.
      - Failure to meet PIP, repeated major infractions, or any critical infraction
      - Permanent
 
