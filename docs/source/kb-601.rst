@@ -1,0 +1,293 @@
+KB-601: Portal Error Code Reference
+===================================
+
+**LeanTech IT Solutions — Internal Knowledge Base**
+
+**Document ID:** KB-601
+
+**Effective Date:** January 18, 2020
+
+**Last Reviewed:** November 15, 2024
+
+**Classification:** Internal — All Staff
+
+--------------
+
+1. Purpose
+----------
+
+This document provides a reference for error codes displayed on the
+LeanTech client portal interface. When a client reports seeing an error
+on their portal, use this guide to identify the issue category and begin
+troubleshooting.
+
+--------------
+
+2. Error Code Format
+--------------------
+
+All LeanTech portal error codes follow the format: **LT-XXXX**
+
+======= ===========================
+Prefix  Category
+======= ===========================
+LT-1xxx Authentication & Access
+LT-2xxx Network & Connectivity
+LT-3xxx Database & Storage
+LT-4xxx Application & Configuration
+LT-5xxx System Health & Monitoring
+LT-6xxx Scheduled Maintenance
+======= ===========================
+
+--------------
+
+3. Error Code Reference
+-----------------------
+
+LT-1001 — Invalid Credentials
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** Low
+-  **Description:** User provided incorrect login credentials.
+-  **Action:** Verify the user’s credentials and reset if necessary.
+
+LT-1002 — Session Expired
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** Low
+-  **Description:** The user’s session has timed out due to inactivity.
+-  **Action:** Instruct the user to log in again. Default session
+   timeout is 30 minutes.
+
+LT-1005 — Account Locked
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** Medium
+-  **Description:** User account has been locked due to multiple failed
+   login attempts.
+-  **Action:** Unlock the account and reset the password if the user
+   requests it.
+
+LT-1008 — Insufficient Permissions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** Low
+-  **Description:** The user attempted to access a resource they do not
+   have permission for.
+-  **Action:** Verify the user’s role and permissions in the portal
+   admin panel. Escalate to the client’s IT admin if role changes are
+   needed.
+
+LT-1012 — Two-Factor Authentication Failure
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** Medium
+-  **Description:** The user’s 2FA token was rejected or has expired.
+-  **Action:** Verify the user’s authenticator app is synced. If the
+   issue persists, generate a new 2FA secret from the admin panel.
+
+LT-2003 — DNS Resolution Failure
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** High
+-  **Description:** The server failed to resolve one or more internal
+   DNS names.
+-  **Action:** Check ``/etc/resolv.conf`` for correct nameserver
+   entries. Test resolution with ``nslookup`` or ``dig``. Verify network
+   connectivity to the DNS server.
+
+LT-2010 — Connection Timeout
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** Medium
+-  **Description:** The portal timed out while connecting to a backend
+   service.
+-  **Action:** Check network connectivity and restart the affected
+   service.
+
+LT-2015 — TLS Handshake Failure
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** High
+-  **Description:** The portal could not establish a secure connection
+   to a backend service due to a TLS/SSL certificate issue.
+-  **Action:** Check certificate expiry dates. Verify the certificate
+   chain is complete. Check system time is correct (``timedatectl``).
+
+LT-2022 — Port Unreachable
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** Medium
+-  **Description:** The portal attempted to connect to a backend service
+   on a port that is not responding.
+-  **Action:** Verify the target service is running and listening on the
+   expected port, then check firewall rules.
+
+LT-3005 — Disk Space Critical
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** Critical
+-  **Description:** The server’s root or data partition has less than 5%
+   free space remaining.
+-  **Action:** Identify large files, clear old logs, temp files, or
+   unused packages. Check ``/var/log/`` for oversized log files.
+
+LT-3020 — Data Source Unavailable
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** High
+-  **Description:** The portal cannot connect to its data source.
+-  **Action:** Verify database service status and configuration files.
+
+LT-3025 — Data Integrity Error
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** High
+-  **Description:** A data file required by the portal has been
+   corrupted or contains invalid entries.
+-  **Action:** Locate the affected data file from the error log. Check
+   for backup copies in ``/var/lib/leantech/backups/``. Restore from the
+   most recent valid backup.
+
+LT-3030 — Log Directory Full
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** Medium
+-  **Description:** The log directory has reached its quota limit and
+   can no longer accept new entries.
+-  **Action:** Rotate or archive old logs. Check ``logrotate``
+   configuration. Clear space in ``/var/log/``.
+
+LT-4010 — Missing Environment Variable
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** Medium
+-  **Description:** A required environment variable is not set in the
+   service’s runtime configuration.
+-  **Action:** Check the systemd service file for ``Environment=`` or
+   ``EnvironmentFile=`` directives. Verify the environment file exists
+   and contains the required variables.
+
+LT-4040 — Configuration Error
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** Medium
+-  **Description:** A configuration file is missing or contains invalid
+   parameters.
+-  **Action:** Locate and restore the correct configuration file. Check
+   ``/etc/leantech/`` for config files.
+
+LT-4045 — Configuration Syntax Error
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** Medium
+-  **Description:** A configuration file exists but contains syntax
+   errors that prevent it from being parsed.
+-  **Action:** Review the configuration file for typos, missing
+   delimiters, or incorrect formatting. Compare against a known-good
+   backup.
+
+LT-4050 — Plugin Load Failure
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** Low
+-  **Description:** A portal plugin or module failed to initialize
+   during startup.
+-  **Action:** Check the application log for the specific plugin name
+   and error. Reinstall the plugin or disable it if non-essential.
+
+LT-5005 — Service Not Running
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** High
+-  **Description:** A required system service is not running.
+-  **Action:** Identify the stopped service from the log. Check its
+   status and attempt to restart. Review logs for failure reasons.
+
+LT-5012 — System Health Check Failure
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** High
+-  **Description:** The LeanTech Monitor Service has detected one or
+   more system health check failures. The portal cannot operate normally
+   until all checks pass.
+-  **Action:** Check the monitor log in
+   ``/var/log/leantech/monitor.log`` to identify the failing check, then
+   resolve the underlying issue. The portal will automatically recover
+   once all health checks pass.
+
+LT-5018 — High Memory Usage
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** Medium
+-  **Description:** System memory usage has exceeded 90% of available
+   RAM.
+-  **Action:** Check memory usage. Identify memory-heavy processes. Kill
+   or restart offending processes if safe to do so.
+
+LT-5020 — High CPU Usage
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** Medium
+-  **Description:** System CPU usage has exceeded 95% sustained for more
+   than 5 minutes.
+-  **Action:** Use ``top`` or ``htop`` to identify processes consuming
+   excessive CPU. Investigate whether the process is legitimate or
+   rogue. Terminate processes if necessary.
+
+LT-5025 — Swap Space Exhausted
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** High
+-  **Description:** The system has exhausted all available swap space,
+   indicating severe memory pressure.
+-  **Action:** Identify memory-heavy processes immediately. Consider
+   adding temporary swap space or restart services that are leaking
+   memory.
+
+LT-6001 — Scheduled Maintenance
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** Informational
+-  **Description:** The portal is temporarily unavailable due to
+   scheduled maintenance.
+-  **Action:** No action required. Service will resume automatically
+   after maintenance window.
+
+LT-6005 — Maintenance Overrun
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** Medium
+-  **Description:** A scheduled maintenance window has exceeded its
+   expected duration.
+-  **Action:** Contact the engineering team responsible for the
+   maintenance to get an updated ETA. Inform affected clients of the
+   delay.
+
+LT-6010 — Backup In Progress
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Severity:** Informational
+-  **Description:** A system backup is currently running, which may
+   temporarily degrade portal performance.
+-  **Action:** No immediate action required. Performance should return
+   to normal once the backup completes. Typical backup duration is 15–45
+   minutes.
+
+--------------
+
+4. Troubleshooting Workflow
+---------------------------
+
+When a client reports a portal error code:
+
+1. **Note the error code** reported by the client.
+2. **Look up the code** in the table above to understand the issue
+   category.
+3. **Follow the diagnostic steps** described for that specific error
+   code.
+4. **Resolve the issue** using the recommended action.
+5. **Verify recovery** — the portal page will automatically update when
+   the issue is resolved.
+
+--------------

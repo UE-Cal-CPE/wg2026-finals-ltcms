@@ -1,0 +1,326 @@
+KB-450: Data Privacy and Confidentiality Policy
+===============================================
+
+**LeanTech IT Solutions — Internal Knowledge Base**
+
+**Document ID:** KB-450
+
+**Effective Date:** January 5, 2020
+
+**Last Reviewed:** January 12, 2025
+
+**Classification:** Internal — All Staff
+
+--------------
+
+1. Purpose
+----------
+
+This document defines the data privacy and confidentiality obligations
+of all LeanTech IT Solutions employees when handling client data,
+company information, and personal data. Compliance with this policy is
+mandatory and is a condition of employment.
+
+--------------
+
+2. Legal and Regulatory Basis
+-----------------------------
+
+LeanTech IT Solutions services over 300 client companies, including
+international organizations. As such, LeanTech operates in compliance
+with the following regulations depending on the client’s jurisdiction
+and industry:
+
+2.1 Philippine Regulations (All Clients)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Republic Act No. 10173** — Data Privacy Act of 2012
+-  **National Privacy Commission (NPC)** guidelines and advisories
+
+2.2 International Regulations (Where Applicable)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-----------------+-----------------+-----------------+-----------------+
+| Regulation      | Jurisdiction /  | Key Requirement | Applies When    |
+|                 | Industry        |                 |                 |
++=================+=================+=================+=================+
+| **GDPR**        | European Union  | Strict consent  | Client is       |
+| (General Data   | / EEA           | requirements,   | EU-based or     |
+| Protection      |                 | data subject    | handles data of |
+| Regulation)     |                 | rights (access, | EU residents    |
+|                 |                 | erasure,        |                 |
+|                 |                 | portability),   |                 |
+|                 |                 | 72-hour breach  |                 |
+|                 |                 | notification,   |                 |
+|                 |                 | data processing |                 |
+|                 |                 | agreements      |                 |
++-----------------+-----------------+-----------------+-----------------+
+| **HIPAA**       | United States — | Protected       | Client is a US  |
+| (Health         | Healthcare      | Health          | healthcare      |
+| Insurance       |                 | Information     | provider,       |
+| Portability and |                 | (PHI) must be   | insurer, or     |
+| Accountability  |                 | encrypted,      | their business  |
+| Act)            |                 | acc             | associate       |
+|                 |                 | ess-controlled, |                 |
+|                 |                 | and             |                 |
+|                 |                 | audit-logged.   |                 |
+|                 |                 | Business        |                 |
+|                 |                 | Associate       |                 |
+|                 |                 | Agreements      |                 |
+|                 |                 | (BAAs) required |                 |
++-----------------+-----------------+-----------------+-----------------+
+| **PCI-DSS**     | Global —        | Cardholder data | Client          |
+| (Payment Card   | Payment         | must never be   | processes,      |
+| Industry Data   | Processing      | stored in       | stores, or      |
+| Security        |                 | plaintext.      | transmits       |
+| Standard)       |                 | Access to       | payment card    |
+|                 |                 | cardholder data | data            |
+|                 |                 | environments is |                 |
+|                 |                 | strictly logged |                 |
+|                 |                 | and segmented   |                 |
++-----------------+-----------------+-----------------+-----------------+
+| **SOC 2**       | Global —        | Trust service   | Client requires |
+| (Service        | Technology /    | criteria:       | SOC 2           |
+| Organization    | SaaS            | security,       | attestation for |
+| Control 2)      |                 | availability,   | their vendor    |
+|                 |                 | processing      | ecosystem       |
+|                 |                 | integrity,      |                 |
+|                 |                 | c               |                 |
+|                 |                 | onfidentiality, |                 |
+|                 |                 | privacy         |                 |
++-----------------+-----------------+-----------------+-----------------+
+
+2.3 Client-Specific Agreements
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  **Data Processing Agreements (DPAs)** — Contractual obligations
+   specific to each client regarding how their data is handled, stored,
+   and transferred
+-  **Non-Disclosure Agreements (NDAs)** — Signed upon onboarding;
+   prohibit disclosure of any client information to unauthorized parties
+-  **Internal Information Security Policies** — LeanTech’s own baseline
+   security controls that apply to all clients regardless of
+   jurisdiction
+
+--------------
+
+3. International Client Compliance
+----------------------------------
+
+Each client account in the LeanTech CRM is tagged with applicable
+regulatory frameworks. These tags determine additional handling
+requirements for Tier 1 engineers.
+
+3.1 Regulatory Tags
+~~~~~~~~~~~~~~~~~~~
+
++-----------------------+-----------------------+-----------------------+
+| Tag                   | Meaning               | Additional            |
+|                       |                       | Requirements          |
++=======================+=======================+=======================+
+| ``[GDPR]``            | Client subject to EU  | Do not transfer or    |
+|                       | data protection law   | store client data     |
+|                       |                       | outside of approved   |
+|                       |                       | regions. Honor data   |
+|                       |                       | subject requests      |
+|                       |                       | (forward to client’s  |
+|                       |                       | DPO). Breach          |
+|                       |                       | notification within   |
+|                       |                       | 72 hours.             |
++-----------------------+-----------------------+-----------------------+
+| ``[HIPAA]``           | Client subject to US  | Do not access, view,  |
+|                       | healthcare            | or discuss any        |
+|                       | regulations           | patient/health data.  |
+|                       |                       | All PHI-related work  |
+|                       |                       | must use encrypted    |
+|                       |                       | channels only. Log    |
+|                       |                       | all access to PHI     |
+|                       |                       | systems.              |
++-----------------------+-----------------------+-----------------------+
+| ``[PCI]``             | Client handles        | Never access          |
+|                       | payment card data     | cardholder data       |
+|                       |                       | environments unless   |
+|                       |                       | explicitly            |
+|                       |                       | authorized. Do not    |
+|                       |                       | store or transmit     |
+|                       |                       | card numbers in       |
+|                       |                       | tickets, chat, or     |
+|                       |                       | logs.                 |
++-----------------------+-----------------------+-----------------------+
+| ``[SOC2]``            | Client requires SOC 2 | All changes must be   |
+|                       | compliance            | documented with       |
+|                       |                       | before/after state.   |
+|                       |                       | Access requests must  |
+|                       |                       | go through formal     |
+|                       |                       | approval. Maintain    |
+|                       |                       | audit trail.          |
++-----------------------+-----------------------+-----------------------+
+| ``[DPA]``             | Client has a custom   | Refer to the client’s |
+|                       | Data Processing       | DPA document in the   |
+|                       | Agreement             | CRM for specific      |
+|                       |                       | obligations before    |
+|                       |                       | performing any        |
+|                       |                       | data-related actions. |
++-----------------------+-----------------------+-----------------------+
+
+3.2 When In Doubt
+~~~~~~~~~~~~~~~~~
+
+If you are unsure which regulations apply to a client:
+
+1. Check the client’s profile in the CRM for regulatory tags
+2. If no tags are visible, treat the client as ``[DPA]`` by default and
+   handle all data with maximum caution
+3. Consult your Team Leader before performing any action that involves
+   accessing, moving, or modifying client data
+
+.. note::
+
+   **Important:** Regulatory violations can result in significant fines
+   for LeanTech (up to €20 million or 4% of global annual revenue under
+   GDPR) and personal liability for involved employees. When in doubt,
+   do less — not more.
+
+--------------
+
+4. Classification of Information
+--------------------------------
+
++-----------------------+-----------------------+-----------------------+
+| Classification        | Description           | Examples              |
++=======================+=======================+=======================+
+| **Public**            | Information that may  | Company website       |
+|                       | be freely shared      | content, published    |
+|                       | outside the company   | press releases, job   |
+|                       |                       | postings              |
++-----------------------+-----------------------+-----------------------+
+| **Internal**          | Information intended  | KB articles, SOPs,    |
+|                       | for LeanTech          | internal memos, SLA   |
+|                       | employees only        | reports, training     |
+|                       |                       | materials             |
++-----------------------+-----------------------+-----------------------+
+| **Confidential**      | Sensitive business    | Client contracts,     |
+|                       | information requiring | financial data,       |
+|                       | restricted access     | employee records,     |
+|                       |                       | system architecture   |
+|                       |                       | details               |
++-----------------------+-----------------------+-----------------------+
+| **Restricted**        | Highly sensitive data | Client server         |
+|                       | with strict access    | credentials,          |
+|                       | controls              | encryption keys,      |
+|                       |                       | personal data of      |
+|                       |                       | individuals, audit    |
+|                       |                       | logs                  |
++-----------------------+-----------------------+-----------------------+
+
+--------------
+
+5. Employee Obligations
+-----------------------
+
+4.1 General Requirements
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  Access only the data and systems necessary to perform your assigned
+   duties
+-  Never share login credentials, API keys, or access tokens with
+   anyone, including colleagues
+-  Lock your workstation when stepping away, even briefly (``Win+L`` or
+   ``Ctrl+Alt+L``)
+-  Do not store client data on personal devices, USB drives, or
+   unauthorized cloud services
+-  Report any suspected data breach or unauthorized access immediately
+   (refer to KB-155, Tier 3)
+
+4.2 During Client Interactions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-  Do not ask clients for their passwords — direct them to self-service
+   password reset tools
+-  If a client voluntarily shares sensitive information (e.g., passwords
+   in a chat message), advise them to change it immediately and note
+   this in the ticket
+-  Do not screenshot or copy client data outside of the ticketing system
+-  Use the client’s preferred name and verify identity before discussing
+   account details
+
+4.3 On Client Servers
+~~~~~~~~~~~~~~~~~~~~~
+
+-  Access client servers only through authorized channels (SSH with
+   assigned credentials)
+-  Do not browse, copy, or modify client files that are not related to
+   your assigned incident
+-  Do not install unauthorized software or tools on client servers
+-  All commands executed on client servers are logged and subject to
+   audit
+
+--------------
+
+6. Data Retention
+-----------------
+
++-----------------------+-----------------------+-----------------------+
+| Data Type             | Retention Period      | Disposal Method       |
++=======================+=======================+=======================+
+| Incident tickets      | 3 years after closure | Archived, then        |
+|                       |                       | securely deleted      |
++-----------------------+-----------------------+-----------------------+
+| Client server logs    | 1 year                | Automated rotation    |
+|                       |                       | and deletion          |
++-----------------------+-----------------------+-----------------------+
+| Employee records      | Duration of           | Secure shredding /    |
+|                       | employment + 5 years  | digital deletion      |
++-----------------------+-----------------------+-----------------------+
+| Chat transcripts (MS  | 1 year                | Automated purge       |
+| Teams)                |                       |                       |
++-----------------------+-----------------------+-----------------------+
+
+--------------
+
+7. Breach Notification
+----------------------
+
+If you discover or suspect a data breach:
+
+1. **Do not attempt to investigate or fix it yourself** — this is a Tier
+   3 security incident
+2. Immediately notify your Team Leader and report to
+   ``#tier3-escalation`` on MS Teams
+3. Document what you observed: what data, what system, when, and how you
+   discovered it
+4. Preserve evidence — do not delete logs, close sessions, or power off
+   affected systems
+5. Do not discuss the breach with clients, external parties, or
+   unauthorized colleagues
+
+LeanTech is legally required to report qualifying breaches to the
+National Privacy Commission within 72 hours of discovery. For
+``[GDPR]``-tagged clients, parallel notification to the client’s Data
+Protection Officer (DPO) and the relevant EU supervisory authority is
+also required within 72 hours.
+
+--------------
+
+8. Violations
+-------------
+
+Violations of this policy are treated as Major or Critical infractions
+under HR-201 (Code of Conduct and Disciplinary Action Policy) and may
+result in:
+
+-  Immediate suspension pending investigation
+-  Termination of employment
+-  Civil or criminal liability under the Data Privacy Act of 2012
+-  Company liability for damages, fines, and regulatory penalties
+
+--------------
+
+9. Annual Training
+------------------
+
+All employees are required to complete the Data Privacy and Information
+Security training module annually. Training completion is tracked by HR
+and is a factor in annual performance evaluations.
+
+--------------
