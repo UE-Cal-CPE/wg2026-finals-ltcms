@@ -18,6 +18,6 @@ Contents
 
 .. toctree::
 
-   usage
-   api
-   coc
+   source/usage
+   source/api
+   source/coc
