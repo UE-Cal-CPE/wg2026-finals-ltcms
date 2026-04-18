@@ -17,9 +17,6 @@ Contents
 --------
 
 .. toctree::
-   :hidden:
-	:maxdepth: 1
-	:caption: About
 
    usage
    api
