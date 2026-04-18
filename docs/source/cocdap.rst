@@ -123,19 +123,19 @@ NTE Process
 * A request for the employee's written explanation
 
 2. **Response Period** — The employee has **48 hours** (2 business days) from receipt of the NTE to submit a written explanation to their Team Leader or directly to HR. 
-   The explanation should include:
+The explanation should include:
 * The employee's account of what happened
 * Any context, mitigating circumstances, or justification for the action taken
 * Supporting evidence, if applicable (e.g., ticket logs, screenshots, chat transcripts)
 
 3. **Administrative Hearing** — If the written explanation does not sufficiently resolve the matter, an administrative hearing will be scheduled within **5 business days**
-   of receiving the employee's response. The hearing panel will consist of:
+of receiving the employee's response. The hearing panel will consist of:
 * The employee's Team Leader
 * A representative from Human Resources
 * The Operations Manager (for Major and Critical infractions)
 
 4. **Decision** — After reviewing the employee's explanation and/or conducting the hearing, the panel will issue a written decision within **3 business days**. 
-   The decision will include:
+The decision will include:
 * Whether the infraction is sustained or dismissed
 * The specific disciplinary action to be imposed (if any)
 * The basis for the decision
@@ -145,7 +145,7 @@ NTE Exemptions
 
 * **Verbal Warnings (Step 1)**: An NTE is not required for verbal warnings. The Team Leader will conduct a documented coaching conversation directly.
 * **Critical Infractions (Section 4.3)**: An NTE will still be issued, 
-    but the employee may be placed on **preventive suspension**  (with pay) during the response and hearing period to protect company and client interests.
+but the employee may be placed on **preventive suspension**  (with pay) during the response and hearing period to protect company and client interests.
 
 .. note::
     Note: Failure to respond to an NTE within the 48-hour response period will be treated as a waiver of the right to explain. 
@@ -211,14 +211,13 @@ Given the operational impact of unnecessary escalations, the following specific 
     * - 4th false escalation
       - Suspension or termination
 
-An escalation is classified as "false" when:
+  An escalation is classified as "false" when:
 * The incident clearly met Tier 1 criteria as defined in KB-155
 * The engineer did not complete reasonable diagnostic steps before escalating
 * No documented justification was provided for the escalation decision
 
 .. note::
-    :caption: Important
-    If you are unsure whether to escalate, consult with a peer on #tier1-support or contact your Team Leader before escalating. 
+    Important: If you are unsure whether to escalate, consult with a peer on #tier1-support or contact your Team Leader before escalating. 
     Seeking guidance is not penalized — unnecessary escalation is.
 
 Employee Acknowledgment
