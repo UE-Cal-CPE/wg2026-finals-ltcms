@@ -21,6 +21,6 @@ Contents
 	:maxdepth: 1
 	:caption: About
 
-   about/usage
-   about/api
+   usage
+   api
    coc
