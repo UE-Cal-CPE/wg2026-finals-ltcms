@@ -21,5 +21,6 @@ Contents
 	:maxdepth: 1
 	:caption: About
 
-   source/usage
-   source/api
+   about/usage
+   about/api
+   source/coc
