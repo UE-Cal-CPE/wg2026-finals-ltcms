@@ -122,20 +122,17 @@ NTE Process
 * A factual description of what occurred
 * A request for the employee's written explanation
 
-2. **Response Period** — The employee has **48 hours** (2 business days) from receipt of the NTE to submit a written explanation to their Team Leader or directly to HR. 
-The explanation should include:
+2. **Response Period** — The employee has **48 hours** (2 business days) from receipt of the NTE to submit a written explanation to their Team Leader or directly to HR. The explanation should include:
 * The employee's account of what happened
 * Any context, mitigating circumstances, or justification for the action taken
 * Supporting evidence, if applicable (e.g., ticket logs, screenshots, chat transcripts)
 
-3. **Administrative Hearing** — If the written explanation does not sufficiently resolve the matter, an administrative hearing will be scheduled within **5 business days**
-of receiving the employee's response. The hearing panel will consist of:
+3. **Administrative Hearing** — If the written explanation does not sufficiently resolve the matter, an administrative hearing will be scheduled within **5 business days** of receiving the employee's response. The hearing panel will consist of:
 * The employee's Team Leader
 * A representative from Human Resources
 * The Operations Manager (for Major and Critical infractions)
 
-4. **Decision** — After reviewing the employee's explanation and/or conducting the hearing, the panel will issue a written decision within **3 business days**. 
-The decision will include:
+4. **Decision** — After reviewing the employee's explanation and/or conducting the hearing, the panel will issue a written decision within **3 business days**. The decision will include:
 * Whether the infraction is sustained or dismissed
 * The specific disciplinary action to be imposed (if any)
 * The basis for the decision
@@ -148,7 +145,7 @@ NTE Exemptions
 but the employee may be placed on **preventive suspension**  (with pay) during the response and hearing period to protect company and client interests.
 
 .. note::
-    Note: Failure to respond to an NTE within the 48-hour response period will be treated as a waiver of the right to explain. 
+    **Note:** Failure to respond to an NTE within the 48-hour response period will be treated as a waiver of the right to explain. 
     The disciplinary process will proceed based on available evidence.
 
 Disciplinary Action Policy
@@ -160,7 +157,7 @@ Progressive Discipline Process
 LeanTech IT Solutions follows a progressive discipline model. The level of action taken depends on the severity and frequency of the infraction.
 
 .. list-table::
-   :width: 100%
+   :width: 15 30 30 25
    :header-rows: 1
 
    * - Step
@@ -197,7 +194,7 @@ False Escalation Policy
 Given the operational impact of unnecessary escalations, the following specific guidelines apply:
 
 .. list-table::
-    :width: 100%
+    :widths: 15 30
     :header-rows: 1
 
     * - Occurrence (within 90-day period)
@@ -217,7 +214,7 @@ Given the operational impact of unnecessary escalations, the following specific 
 - No documented justification was provided for the escalation decision
 
 .. note::
-    Important: If you are unsure whether to escalate, consult with a peer on #tier1-support or contact your Team Leader before escalating. 
+    **Important:** If you are unsure whether to escalate, consult with a peer on #tier1-support or contact your Team Leader before escalating. 
     Seeking guidance is not penalized — unnecessary escalation is.
 
 Employee Acknowledgment
