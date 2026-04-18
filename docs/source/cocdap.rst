@@ -75,7 +75,7 @@ Major Infractions
      - Examples
    * - False or unnecessary escalation
      - Escalating an incident to Tier 2 or Tier 3 that does not meet the escalation criteria defined in KB-155. 
-     This wastes senior engineering resources and delays resolution of genuine critical incidents.
+    This wastes senior engineering resources and delays resolution of genuine critical incidents.
    * - Failure to resolve within SLA
      - Exceeding the target resolution time for a Tier 1 incident without documented reason or approved escalation
    * - Repeated minor infractions
@@ -142,7 +142,7 @@ NTE Exemptions
 
 * **Verbal Warnings (Step 1)**: An NTE is not required for verbal warnings. The Team Leader will conduct a documented coaching conversation directly.
 * **Critical Infractions (Section 4.3)**: An NTE will still be issued, 
-but the employee may be placed on **preventive suspension**  (with pay) during the response and hearing period to protect company and client interests.
+  but the employee may be placed on **preventive suspension**  (with pay) during the response and hearing period to protect company and client interests.
 
 .. note::
     **Note:** Failure to respond to an NTE within the 48-hour response period will be treated as a waiver of the right to explain. 
@@ -157,7 +157,7 @@ Progressive Discipline Process
 LeanTech IT Solutions follows a progressive discipline model. The level of action taken depends on the severity and frequency of the infraction.
 
 .. list-table::
-   :width: 15 30 30 25
+   :widths: 15 30 30 25
    :header-rows: 1
 
    * - Step
@@ -208,7 +208,8 @@ Given the operational impact of unnecessary escalations, the following specific 
     * - 4th false escalation
       - Suspension or termination
 
-* An escalation is classified as "false" when:
+An escalation is classified as "false" when:
+*
 - The incident clearly met Tier 1 criteria as defined in KB-155
 - The engineer did not complete reasonable diagnostic steps before escalating
 - No documented justification was provided for the escalation decision
