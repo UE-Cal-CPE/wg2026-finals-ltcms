@@ -75,7 +75,7 @@ Major Infractions
      - Examples
    * - False or unnecessary escalation
      - Escalating an incident to Tier 2 or Tier 3 that does not meet the escalation criteria defined in KB-155. 
-      This wastes senior engineering resources and delays resolution of genuine critical incidents.
+       This wastes senior engineering resources and delays resolution of genuine critical incidents.
    * - Failure to resolve within SLA
      - Exceeding the target resolution time for a Tier 1 incident without documented reason or approved escalation
    * - Repeated minor infractions
@@ -172,7 +172,8 @@ LeanTech IT Solutions follows a progressive discipline model. The level of actio
      - Minor infractions (1st occurrence)
      - 60 days
    * - Step 2
-     - **Written Warning** — NTE issued first (Section 5). Formal written notice issued by the Team Leader and acknowledged by the employee. A copy is placed in the employee's HR file.
+     - **Written Warning** — NTE issued first (Section 5). Formal written notice issued by the Team Leader and acknowledged by the employee. 
+      A copy is placed in the employee's HR file.
      - Minor infractions (2nd occurrence) or Major infractions (1st occurrence)
      - 90 days
    * - Step 3
