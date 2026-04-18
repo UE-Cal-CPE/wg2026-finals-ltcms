@@ -75,7 +75,7 @@ Major Infractions
      - Examples
    * - False or unnecessary escalation
      - Escalating an incident to Tier 2 or Tier 3 that does not meet the escalation criteria defined in KB-155. 
-       This wastes senior engineering resources and delays resolution of genuine critical incidents.
+     This wastes senior engineering resources and delays resolution of genuine critical incidents.
    * - Failure to resolve within SLA
      - Exceeding the target resolution time for a Tier 1 incident without documented reason or approved escalation
    * - Repeated minor infractions
@@ -160,7 +160,7 @@ Progressive Discipline Process
 LeanTech IT Solutions follows a progressive discipline model. The level of action taken depends on the severity and frequency of the infraction.
 
 .. list-table::
-   :widths: 15 40 30 30
+   :widths: 15 70 30 15
    :header-rows: 1
 
    * - Step
@@ -172,12 +172,14 @@ LeanTech IT Solutions follows a progressive discipline model. The level of actio
      - Minor infractions (1st occurrence)
      - 60 days
    * - Step 2
-     - **Written Warning** — NTE issued first (Section 5). Formal written notice issued by the Team Leader and acknowledged by the employee. A copy is placed in the employee's HR file.
+     - **Written Warning** — NTE issued first (Section 5). Formal written notice issued by the Team Leader and acknowledged by the employee. 
+     A copy is placed in the employee's HR file.
      - Minor infractions (2nd occurrence) or Major infractions (1st occurrence)
      - 90 days
    * - Step 3
      - **Final Written Warning with Performance Improvement Plan (PIP)** — NTE issued first. 
-       A formal PIP is created outlining specific targets the employee must meet within a defined period (typically 30 days). Failure to meet PIP targets proceeds to Step 4.
+     A formal PIP is created outlining specific targets the employee must meet within a defined period (typically 30 days). 
+     Failure to meet PIP targets proceeds to Step 4.
      - Major infractions (2nd occurrence) or continued minor infractions after Step 2
      - 180 days
    * - Step 4
@@ -195,7 +197,7 @@ False Escalation Policy
 Given the operational impact of unnecessary escalations, the following specific guidelines apply:
 
 .. list-table::
-    :widths: 15 30
+    :width: 100%
     :header-rows: 1
 
     * - Occurrence (within 90-day period)
