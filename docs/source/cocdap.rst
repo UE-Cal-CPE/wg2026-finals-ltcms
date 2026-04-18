@@ -44,6 +44,31 @@ All employees are expected to:
 Categories of Infractions
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. list-table:: Board games
+  :widths: 20 15 65
+  :header-rows: 1
+
+  * - Name
+    - Number of players
+    - Description
+  * - Catan
+    - 3 to 4
+    - Players take on the roles of settlers, each attempting to build and
+      develop holdings while trading and acquiring resources. Players gain
+      victory points as their settlements grow and the first to reach a set
+      number of victory points, typically 10, wins.
+  * - Ticket to Ride
+    - 2 to 5
+    - Players collect and play train car cards to claim train routes across the
+      map. Points are earned based on the length of the claimed routes, whoever
+      completes the longest continuous railway, and whether the player can
+      connect distant cities which are determined by drawing ticket cards.
+  * - Chess
+    - 2
+    - An abstract strategy game that involves no hidden information and no
+      elements of chance. Today, chess is one of the world's most popular games
+      played by millions of people worldwide.
+
 Minor Infractions
 """""""""""""""""
 
@@ -75,7 +100,7 @@ Major Infractions
      - Examples
    * - False or unnecessary escalation
      - Escalating an incident to Tier 2 or Tier 3 that does not meet the escalation criteria defined in KB-155. 
-       This wastes senior engineering resources and delays resolution of genuine critical incidents.
+      This wastes senior engineering resources and delays resolution of genuine critical incidents.
    * - Failure to resolve within SLA
      - Exceeding the target resolution time for a Tier 1 incident without documented reason or approved escalation
    * - Repeated minor infractions
@@ -170,17 +195,17 @@ LeanTech IT Solutions follows a progressive discipline model. The level of actio
      - 60 days
    * - Step 2
      - **Written Warning** — NTE issued first (Section 5). Formal written notice issued by the Team Leader and acknowledged by the employee. 
-       A copy is placed in the employee's HR file.
+     A copy is placed in the employee's HR file.
      - Minor infractions (2nd occurrence) or Major infractions (1st occurrence)
      - 90 days
    * - Step 3
      - **Final Written Warning with Performance Improvement Plan (PIP)** — NTE issued first. A formal PIP is created outlining specific targets the employee
-       must meet within a defined period (typically 30 days). Failure to meet PIP targets proceeds to Step 4.
+     must meet within a defined period (typically 30 days). Failure to meet PIP targets proceeds to Step 4.
      - Major infractions (2nd occurrence) or continued minor infractions after Step 2
      - 180 days
    * - Step 4
      - **Suspension or Termination** — NTE issued first. Depending on the nature and severity of the infraction, 
-       the employee may be suspended without pay (3–5 business days) or have their employment terminated.
+     the employee may be suspended without pay (3–5 business days) or have their employment terminated.
      - Failure to meet PIP, repeated major infractions, or any critical infraction
      - Permanent
 
