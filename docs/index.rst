@@ -17,7 +17,9 @@ Contents
 --------
 
 .. toctree::
-
+   :caption: General
+   :maxdepth: 1
+   
    source/usage
    source/api
    source/coc
