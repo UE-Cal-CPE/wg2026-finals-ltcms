@@ -44,31 +44,6 @@ All employees are expected to:
 Categories of Infractions
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. list-table:: Board games
-  :widths: 20 15 65
-  :header-rows: 1
-
-  * - Name
-    - Number of players
-    - Description
-  * - Catan
-    - 3 to 4
-    - Players take on the roles of settlers, each attempting to build and
-      develop holdings while trading and acquiring resources. Players gain
-      victory points as their settlements grow and the first to reach a set
-      number of victory points, typically 10, wins.
-  * - Ticket to Ride
-    - 2 to 5
-    - Players collect and play train car cards to claim train routes across the
-      map. Points are earned based on the length of the claimed routes, whoever
-      completes the longest continuous railway, and whether the player can
-      connect distant cities which are determined by drawing ticket cards.
-  * - Chess
-    - 2
-    - An abstract strategy game that involves no hidden information and no
-      elements of chance. Today, chess is one of the world's most popular games
-      played by millions of people worldwide.
-
 Minor Infractions
 """""""""""""""""
 
@@ -182,7 +157,7 @@ Progressive Discipline Process
 LeanTech IT Solutions follows a progressive discipline model. The level of action taken depends on the severity and frequency of the infraction.
 
 .. list-table::
-   :width: 100%
+   :widths: 15 40 25 20
    :header-rows: 1
 
    * - Step
