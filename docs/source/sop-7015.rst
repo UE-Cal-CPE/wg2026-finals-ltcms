@@ -1,0 +1,220 @@
+Quality Assurance Scoring and Evaluation
+========================================
+
+**LeanTech IT Solutions — Standard Operating Procedure**
+
+**Document ID:** SOP-7015
+
+**Effective Date:** March 1, 2020
+
+**Last Reviewed:** July 20, 2025
+
+**Classification:** Internal — All Staff
+
+--------------
+
+1. Purpose
+----------
+
+This document describes the Quality Assurance (QA) evaluation process
+used to assess Tier 1 Support Engineer performance. QA evaluations are
+conducted to maintain high standards of service delivery, identify
+training opportunities, and recognize top performers.
+
+--------------
+
+2. Evaluation Frequency
+-----------------------
+
++-----------------------+-----------------------+-----------------------+
+| Evaluation Type       | Frequency             | Evaluator             |
++=======================+=======================+=======================+
+| Random ticket audit   | Weekly (minimum 2     | QA Analyst            |
+|                       | tickets per engineer) |                       |
++-----------------------+-----------------------+-----------------------+
+| Call/interaction      | Bi-weekly (minimum 1  | QA Analyst            |
+| review                | per engineer)         |                       |
++-----------------------+-----------------------+-----------------------+
+| Monthly performance   | Monthly               | Team Leader           |
+| summary               |                       |                       |
++-----------------------+-----------------------+-----------------------+
+| Quarterly performance | Quarterly             | Operations Manager    |
+| review                |                       |                       |
++-----------------------+-----------------------+-----------------------+
+
+--------------
+
+3. QA Scorecard — Incident Handling
+-----------------------------------
+
+Each evaluated incident is scored across 5 categories. The total
+possible score is **100 points**.
+
+Category 1: Client Communication (25 points)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-----------------------+-----------------------+-----------------------+
+| Criteria              | Points                | Description           |
++=======================+=======================+=======================+
+| Professional greeting | 5                     | Followed SOP-7005     |
+| and identification    |                       | call flow — proper    |
+|                       |                       | greeting, identified  |
+|                       |                       | self and team         |
++-----------------------+-----------------------+-----------------------+
+| Active listening and  | 5                     | Acknowledged the      |
+| empathy               |                       | client’s concern,     |
+|                       |                       | demonstrated          |
+|                       |                       | understanding         |
++-----------------------+-----------------------+-----------------------+
+| Clear and             | 5                     | Used simple,          |
+| professional language |                       | jargon-free language  |
+|                       |                       | appropriate for the   |
+|                       |                       | client                |
++-----------------------+-----------------------+-----------------------+
+| Proactive status      | 5                     | Kept the client       |
+| updates               |                       | informed during       |
+|                       |                       | investigation without |
+|                       |                       | being prompted        |
++-----------------------+-----------------------+-----------------------+
+| Professional closing  | 5                     | Confirmed resolution  |
+|                       |                       | with client, offered  |
+|                       |                       | further assistance,   |
+|                       |                       | closed properly       |
++-----------------------+-----------------------+-----------------------+
+
+Category 2: Technical Competence (25 points)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-----------------------+-----------------------+-----------------------+
+| Criteria              | Points                | Description           |
++=======================+=======================+=======================+
+| Correct diagnostic    | 10                    | Used logical          |
+| approach              |                       | troubleshooting       |
+|                       |                       | steps; checked logs,  |
+|                       |                       | processes, and        |
+|                       |                       | configs               |
+|                       |                       | systematically        |
++-----------------------+-----------------------+-----------------------+
+| Accurate root cause   | 10                    | Identified the actual |
+| identification        |                       | root cause (not just  |
+|                       |                       | symptoms)             |
++-----------------------+-----------------------+-----------------------+
+| Appropriate tools and | 5                     | Used the right        |
+| commands used         |                       | commands for the      |
+|                       |                       | situation (refer to   |
+|                       |                       | KB-002)               |
++-----------------------+-----------------------+-----------------------+
+
+Category 3: Escalation Judgment (20 points)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-----------------------+-----------------------+-----------------------+
+| Criteria              | Points                | Description           |
++=======================+=======================+=======================+
+| Correct escalation    | 15                    | Escalated only when   |
+| decision              |                       | KB-155 criteria were  |
+|                       |                       | met; did NOT escalate |
+|                       |                       | Tier 1 issues         |
++-----------------------+-----------------------+-----------------------+
+| Documented            | 5                     | If escalated,         |
+| justification         |                       | provided clear        |
+|                       |                       | reasoning. If not,    |
+|                       |                       | documented why it was |
+|                       |                       | resolved at T1        |
++-----------------------+-----------------------+-----------------------+
+
+..
+
+   **Note:** Incorrect escalation of a Tier 1 issue results in 0 points
+   for this category and may trigger HR-201 disciplinary procedures.
+
+Category 4: Documentation (20 points)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-----------------------+-----------------------+-----------------------+
+| Criteria              | Points                | Description           |
++=======================+=======================+=======================+
+| Complete ticket       | 8                     | All required fields   |
+| fields                |                       | in SOP-7010 are       |
+|                       |                       | populated             |
++-----------------------+-----------------------+-----------------------+
+| Accurate resolution   | 7                     | Steps taken are       |
+| notes                 |                       | clearly documented    |
+|                       |                       | and reproducible      |
++-----------------------+-----------------------+-----------------------+
+| Proper categorization | 5                     | Correct severity,     |
+| and tagging           |                       | affected system, and  |
+|                       |                       | resolution type       |
+|                       |                       | selected              |
++-----------------------+-----------------------+-----------------------+
+
+Category 5: SLA Compliance (10 points)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
++-----------------------+-----------------------+-----------------------+
+| Criteria              | Points                | Description           |
++=======================+=======================+=======================+
+| Response time within  | 5                     | First response within |
+| SLA                   |                       | the target time for   |
+|                       |                       | the severity level    |
+|                       |                       | (KB-310)              |
++-----------------------+-----------------------+-----------------------+
+| Resolution time       | 5                     | Issue resolved within |
+| within SLA            |                       | the target time for   |
+|                       |                       | the severity level    |
++-----------------------+-----------------------+-----------------------+
+
+--------------
+
+4. Scoring Thresholds
+---------------------
+
++-----------------------+-----------------------+-----------------------+
+| Score Range           | Rating                | Action                |
++=======================+=======================+=======================+
+| 90–100                | **Excellent**         | Eligible for monthly  |
+|                       |                       | recognition and       |
+|                       |                       | performance bonus     |
++-----------------------+-----------------------+-----------------------+
+| 80–89                 | **Satisfactory**      | Meets expectations;   |
+|                       |                       | no action required    |
++-----------------------+-----------------------+-----------------------+
+| 70–79                 | **Needs Improvement** | Coaching session with |
+|                       |                       | Team Leader within 5  |
+|                       |                       | business days         |
++-----------------------+-----------------------+-----------------------+
+| 60–69                 | **Below               | Formal feedback and   |
+|                       | Expectations**        | targeted training     |
+|                       |                       | plan                  |
++-----------------------+-----------------------+-----------------------+
+| Below 60              | **Unsatisfactory**    | Escalated to          |
+|                       |                       | Operations Manager;   |
+|                       |                       | may trigger HR-201    |
+|                       |                       | PIP process           |
++-----------------------+-----------------------+-----------------------+
+
+--------------
+
+5. Dispute Process
+------------------
+
+If you believe a QA evaluation was scored unfairly:
+
+1. Discuss the evaluation with your Team Leader within 3 business days
+2. If unresolved, submit a written dispute to the QA Manager with
+   specific points you are contesting
+3. The QA Manager will re-evaluate the ticket/interaction and provide a
+   final score within 5 business days
+
+--------------
+
+6. Performance Recognition
+--------------------------
+
+Engineers who consistently score 90+ on QA evaluations are eligible for:
+- **Monthly Top Performer** recognition on the company bulletin -
+**Quarterly Performance Bonus** (based on average QA score and SLA
+compliance) - Priority consideration for promotion to Tier 2 or Team
+Leader positions
+
+--------------

@@ -269,5 +269,14 @@ Team Leader or Operations Manager.*
    :caption: General
 
    source/hr-201
+   source/kb-102
+   source/kb-155
+   source/kb-253
+   source/kb-310
+   source/kb-450
+   source/kb-601
+   source/sop-7005
+   source/sop-7010
+   source/sop-7015
    .. :caption: General
    

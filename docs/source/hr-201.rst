@@ -321,7 +321,7 @@ specific guidelines apply:
 | 4th false escalation              | Suspension or termination         |
 +-----------------------------------+-----------------------------------+
 
-* An escalation is classified as “false” when: 
+An escalation is classified as “false” when: 
    - The incident clearly met Tier 1 criteria as defined in KB-155 
    - The engineer did not complete reasonable diagnostic steps before escalating 
    - No documented justification was provided for the escalation decision

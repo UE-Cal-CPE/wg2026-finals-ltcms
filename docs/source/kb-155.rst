@@ -1,0 +1,169 @@
+KB-155: Incident Escalation Policy
+==================================
+
+**LeanTech IT Solutions — Internal Knowledge Base**
+
+**Document ID:** KB-155
+
+**Effective Date:** January 15, 2020
+
+**Last Reviewed:** April 20, 2023
+
+**Classification:** Internal — All Staff
+
+--------------
+
+1. Purpose
+----------
+
+This document defines the incident escalation policy for all IT Support
+Engineers at LeanTech IT Solutions. Proper escalation ensures efficient
+resource allocation and minimizes unnecessary disruptions to senior
+engineering teams.
+
+--------------
+
+2. Company Overview
+-------------------
+
+LeanTech IT Solutions is a managed services provider (MSP) currently
+servicing **over 300 client companies** across the Philippines. Our Tier
+1 support teams are the first line of response for all client-reported
+incidents.
+
+--------------
+
+3. Escalation Tiers
+-------------------
+
+Tier 1 — Resolve Directly
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Criteria:** Isolated issues affecting individual company servers or a
+small subset of client companies. Even if multiple companies report
+similar issues during the same shift, if the total count is **below 50%
+of our total serviced companies** (currently fewer than 150 companies)
+**AND** the issues do not share a common infrastructure root cause, they
+are classified as **independent Tier 1 incidents**.
+
+**Action:** Diagnose and resolve using standard troubleshooting
+procedures. Do NOT escalate.
+
+**Examples:** 
+- Configuration file errors on individual servers 
+- Service restart needed on a single server 
+- Single-user access issues(password, account, permissions) 
+- A single company’s service is down due to an issue internal to the server - Unusual resource utilization on a single server
+
+Tier 2 — Escalate to Engineering
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Criteria:** **More than 50% of serviced companies** (150+ companies)
+are affected simultaneously **AND** the issues share a **common root
+cause** such as shared infrastructure failure.
+
+**Action:** Escalate via Microsoft Teams to the ``#tier2-escalation``
+channel. Include: number of affected companies, common symptoms, and
+timeline.
+
+**Examples:** 
+- Shared DNS server outage affecting the majority of clients 
+- Upstream ISP or network provider failure 
+- Shared storage or database cluster failure 
+- Central authentication server down
+
+Tier 3 — Security Incident
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Criteria:** Confirmed or suspected security breaches, data loss, data
+exfiltration, ransomware, unauthorized access, or server compromises.
+
+**Action:** Escalate **immediately** via Microsoft Teams to the
+``#tier3-escalation`` channel and notify your Team Leader or Operations
+Manager.
+
+**Examples:** 
+- Ransomware detected on a client server 
+- Unauthorized root access or privilege escalation 
+- Evidence of data exfiltration or breach 
+- Compromised credentials affecting multiple systems
+
+--------------
+
+4. Decision Framework
+---------------------
+
+Use the table below as a quick reference when determining how to handle
+an incoming incident. For a more detailed walkthrough, see the
+step-by-step checklist that follows.
+
+Quick Reference
+~~~~~~~~~~~~~~~
+
++-----------------------+-----------------------+-----------------------+
+| Tier                  | Criteria              | Action                |
++=======================+=======================+=======================+
+| **1**                 | Isolated issues on    | **Resolve directly.** |
+|                       | individual company    |                       |
+|                       | resources. If <50% of |                       |
+|                       | 300+ serviced         |                       |
+|                       | companies are         |                       |
+|                       | affected, AND issues  |                       |
+|                       | don’t share a common  |                       |
+|                       | infrastructure root   |                       |
+|                       | cause, treat as       |                       |
+|                       | independent T1        |                       |
+|                       | incidents.            |                       |
++-----------------------+-----------------------+-----------------------+
+| **2**                 | **>50% of serviced    | Escalate to           |
+|                       | companies** (150+)    | ``#tier2-escalation`` |
+|                       | affected              | on MS Teams.          |
+|                       | simultaneously with a |                       |
+|                       | **shared root cause** |                       |
+|                       | (DNS, upstream ISP,   |                       |
+|                       | shared storage).      |                       |
++-----------------------+-----------------------+-----------------------+
+| **3**                 | Security breaches,    | Escalate              |
+|                       | data                  | **immediately** to    |
+|                       | loss/exfiltration,    | ``#tier3-escalation`` |
+|                       | server compromises.   | on MS Teams, then     |
+|                       |                       | notify your Team      |
+|                       |                       | Leader or Operations  |
+|                       |                       | Manager.              |
++-----------------------+-----------------------+-----------------------+
+
+Step-by-Step Checklist
+~~~~~~~~~~~~~~~~~~~~~~
+
+When you receive a client complaint, work through the following
+questions in order:
+
+1. **How many companies are affected?**
+
+   -  If only your assigned company (or a small number) → **Tier 1**
+   -  If 150+ companies with the same issue → **Tier 2**
+
+2. **Is there a common root cause?**
+
+   -  If each company’s issue is independent (different errors,
+      different causes) → **Tier 1** (even if multiple companies are
+      affected)
+   -  If the same root cause affects 50%+ of clients → **Tier 2**
+
+3. **Is there a security component?**
+
+   -  Any confirmed or suspected breach → **Tier 3** (regardless of how
+      many companies are affected)
+
+..
+
+   **Always assess each incident independently. Do not escalate if you
+   are unsure of the root cause. Unnecessary escalations consume senior
+   engineering resources, delay resolution for actual critical
+   incidents, and reflect poorly on Tier 1 performance metrics. Frequent
+   false escalations may result in disciplinary action.**
+
+--------------
+
+*For questions about this policy, contact your Team Leader or Operations
+Manager via Microsoft Teams.*

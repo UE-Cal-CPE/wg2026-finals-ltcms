@@ -1,0 +1,143 @@
+KB-253: LeanTech Services Overview
+==================================
+
+**LeanTech IT Solutions — Internal Knowledge Base**
+
+**Document ID:** KB-253
+
+**Effective Date:** January 17, 2020
+
+**Last Reviewed:** March 1, 2021
+
+**Classification:** Internal — All IT Support Staff
+
+--------------
+
+1. Company Profile
+------------------
+
+LeanTech IT Solutions is a managed services provider (MSP) headquartered
+in Makati, Philippines. We provide IT infrastructure management,
+helpdesk support, and system monitoring services to over 300 client
+companies across various industries.
+
+--------------
+
+2. Infrastructure Overview
+--------------------------
+
+Each client company is assigned a dedicated Linux server (AlmaLinux 9)
+hosted in our regional data centers. These servers run the client’s
+internal tools, dashboards, and monitoring systems.
+
+**Standard Server Stack:** 
+- Operating System: AlmaLinux 9 (x86_64) 
+- Access: SSH (key-based or password authentication) 
+- Monitoring: LeanTech Monitor Service (``leantech-monitor``) 
+- Network: Connected via Tailscale VPN mesh
+
+--------------
+
+3. LeanTech Monitor Service
+---------------------------
+
+The **LeanTech Monitor Service** (``leantech-monitor``) runs on every
+client server as a systemd service. It continuously monitors the
+system’s health and reports status via an HTTP endpoint.
+
+Key Details
+~~~~~~~~~~~
+
+================= ===================================
+Item              Value
+================= ===================================
+Service Name      ``leantech-monitor``
+Binary Location   ``/usr/local/bin/leantech-monitor``
+Log File          ``/var/log/leantech/monitor.log``
+Status Endpoint   ``http://<server-ip>:9876``
+Company Code File ``/home/wgadmin/.leantech-company``
+================= ===================================
+
+Health Checks
+~~~~~~~~~~~~~
+
+The monitor performs the following checks every 10 seconds:
+
+1. **Rogue Process Detection** — Verifies that no unauthorized
+   maintenance processes are running that could degrade server
+   performance.
+2. **Dependency Verification** — Ensures required system binaries and
+   packages are installed and accessible.
+
+Status Values
+~~~~~~~~~~~~~
+
++-----------------------------------+-----------------------------------+
+| Status                            | Meaning                           |
++===================================+===================================+
+| ``OPERATIONAL``                   | All health checks are passing.    |
+|                                   | The server is functioning         |
+|                                   | normally.                         |
++-----------------------------------+-----------------------------------+
+| ``ERROR``                         | One or more health checks have    |
+|                                   | failed. Check the log file for    |
+|                                   | details.                          |
++-----------------------------------+-----------------------------------+
+| ``STARTING``                      | The service is initializing       |
+|                                   | (normal during first few seconds  |
+|                                   | after boot).                      |
++-----------------------------------+-----------------------------------+
+
+Checking Service Status
+~~~~~~~~~~~~~~~~~~~~~~~
+
+**View the monitor log for errors:**
+
+::
+
+   tail -f /var/log/leantech/monitor.log
+
+**Query the status endpoint (from any machine with network access):**
+
+::
+
+   curl http://<server-ip>:9876
+
+--------------
+
+4. Supported Client Companies
+-----------------------------
+
+LeanTech currently services over 300 companies. Your team will be
+assigned to support one specific client company. All client company
+information is managed through our internal CRM system.
+
+--------------
+
+5. Access and Credentials
+-------------------------
+
+Tier 1 support engineers are provided SSH credentials for their assigned
+client servers. All accounts are members of the ``wheel`` group and have
+``sudo`` access for administrative tasks.
+
+**Standard access procedure:**
+
+::
+
+   ssh <username>@<server-hostname>
+
+--------------
+
+6. Incident Reporting
+---------------------
+
+After resolving any incident, document the following in your ticket:
+
+1. Client company name and server hostname
+2. Description of the issue reported by the client
+3. Root cause identified
+4. Steps taken to resolve
+5. Current status (resolved / ongoing)
+
+--------------

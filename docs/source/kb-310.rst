@@ -1,0 +1,145 @@
+KB-310: Service Level Agreement (SLA) Reference
+===============================================
+
+**LeanTech IT Solutions — Internal Knowledge Base**
+
+**Document ID:** KB-310
+
+**Effective Date:** January 10, 2020
+
+**Last Reviewed:** June 30, 2025
+
+**Classification:** Internal — All Staff
+
+--------------
+
+1. Purpose
+----------
+
+This document outlines the Service Level Agreement (SLA) targets that
+LeanTech IT Solutions is contractually obligated to meet for its managed
+services clients. All support engineers must be aware of these targets
+as they directly impact client satisfaction, contract renewals, and
+company performance metrics.
+
+--------------
+
+2. Response Time SLAs
+---------------------
+
+Response time is measured from when the client first contacts support to
+when an engineer acknowledges the issue and begins investigation.
+
+============ ==================== =====================
+Severity     Target Response Time Maximum Response Time
+============ ==================== =====================
+**Critical** 5 minutes            15 minutes
+**High**     15 minutes           30 minutes
+**Medium**   30 minutes           1 hour
+**Low**      1 hour               4 hours
+============ ==================== =====================
+
+..
+
+   Response time starts when the client sends a message, email, or
+   initiates a call — not when the engineer sees it. Monitor your
+   channels actively during your shift.
+
+--------------
+
+3. Resolution Time SLAs
+-----------------------
+
+Resolution time is measured from ticket creation to the issue being
+marked as “Resolved.”
+
+============ ====================== ==========================
+Severity     Target Resolution Time Maximum Resolution Time
+============ ====================== ==========================
+**Critical** 30 minutes             1 hour
+**High**     1 hour                 4 hours
+**Medium**   4 hours                8 hours (1 business day)
+**Low**      8 hours                24 hours (3 business days)
+============ ====================== ==========================
+
+..
+
+   If you anticipate exceeding the target resolution time, notify your
+   Team Leader and update the client with an estimated timeline.
+   Proactive communication prevents SLA breach complaints.
+
+--------------
+
+4. Uptime SLAs
+--------------
+
+LeanTech guarantees the following minimum uptime percentages for managed
+client servers:
+
++-----------------------+-----------------------+-----------------------+
+| Service Tier          | Monthly Uptime Target | Maximum Allowable     |
+|                       |                       | Downtime/Month        |
++=======================+=======================+=======================+
+| Premium               | 99.9%                 | ~43 minutes           |
++-----------------------+-----------------------+-----------------------+
+| Standard              | 99.5%                 | ~3.6 hours            |
++-----------------------+-----------------------+-----------------------+
+| Basic                 | 99.0%                 | ~7.3 hours            |
++-----------------------+-----------------------+-----------------------+
+
+Scheduled maintenance windows (communicated at least 48 hours in
+advance) are excluded from uptime calculations.
+
+--------------
+
+5. SLA Breach Consequences
+--------------------------
+
+When SLA targets are breached, the following occurs:
+
++-----------------------------------+-----------------------------------+
+| Breach Type                       | Impact                            |
++===================================+===================================+
+| Response time breach              | Flagged in monthly report; client |
+|                                   | may receive service credit        |
++-----------------------------------+-----------------------------------+
+| Resolution time breach            | Team Leader review; documented in |
+|                                   | engineer’s performance record     |
++-----------------------------------+-----------------------------------+
+| Uptime breach                     | Service credit issued to client;  |
+|                                   | root cause analysis (RCA)         |
+|                                   | required within 48 hours          |
++-----------------------------------+-----------------------------------+
+| Repeated breaches (3+ in 30 days) | Operations Manager review;        |
+|                                   | potential account reassignment    |
++-----------------------------------+-----------------------------------+
+
+--------------
+
+6. SLA Exclusions
+-----------------
+
+The following situations are excluded from SLA calculations:
+
+-  Scheduled maintenance with prior client notification (48-hour minimum
+   notice)
+-  Force majeure events (natural disasters, power grid failures, etc.)
+-  Issues caused by the client’s own actions (unauthorized changes,
+   credential sharing, etc.)
+-  Third-party service outages beyond LeanTech’s control (upstream ISP,
+   cloud provider, etc.)
+
+--------------
+
+7. Reporting
+------------
+
+SLA compliance is tracked automatically. Monthly SLA reports are
+generated and shared with: - Team Leaders (per-engineer breakdown) -
+Operations Managers (per-team and per-client breakdown) - Clients
+(summarized performance report)
+
+Individual engineers can view their SLA performance through the internal
+dashboard.
+
+--------------

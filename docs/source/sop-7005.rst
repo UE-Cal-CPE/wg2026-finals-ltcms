@@ -1,0 +1,179 @@
+Tier 1 Support Call Flow Guide
+==============================
+
+**LeanTech IT Solutions — Standard Operating Procedure**
+
+**Document ID:** SOP-7005
+
+**Effective Date:** January 20, 2020
+
+**Last Reviewed:** September 6, 2025
+
+**Classification:** Internal — Tier 1 Support Staff
+
+--------------
+
+1. Purpose
+----------
+
+This document outlines the standard call flow for Tier 1 IT Support
+Engineers when handling client incidents via Microsoft Teams. Following
+this flow ensures consistent, professional service delivery.
+
+--------------
+
+2. Standard Call Flow
+---------------------
+
+Step 1 — Greeting and Identification
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Introduce yourself and your team. Confirm the client’s identity.
+
+   **Sample Spiel:** “Good [morning/afternoon/evening], this is [Your
+   Name] from LeanTech IT Solutions Tier 1 Support. I’ll be assisting
+   you today. May I confirm your name and the company you’re calling
+   about?”
+
+--------------
+
+Step 2 — Issue Intake
+~~~~~~~~~~~~~~~~~~~~~
+
+Listen to the client’s description of the issue. Ask clarifying
+questions. Take note of key details: - What system or service is
+affected? - When did the issue start? - What error messages (if any) is
+the client seeing? - Is anyone else at their company experiencing the
+same issue?
+
+   **Sample Spiel:** “Thank you, [Client Name]. Could you describe what
+   you’re experiencing? When did this issue start, and is anyone else at
+   your company reporting the same problem?”
+
+--------------
+
+Step 3 — Issue Categorization
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Using **KB-001 (Escalation Policy)**, determine the tier level of the
+incident:
+
+-  **Is this a single-company issue?** → Likely **Tier 1**
+-  **Are 150+ companies affected with the same root cause?** → **Tier
+   2** — escalate
+-  **Is there a security breach?** → **Tier 3** — escalate immediately
+
+..
+
+   **Key Rule:** If fewer than 50% of our 300+ serviced companies are
+   affected, and the issues are independent, handle each as a Tier 1
+   incident. Do NOT escalate.
+
+--------------
+
+Step 4 — Investigation
+~~~~~~~~~~~~~~~~~~~~~~
+
+Remote into the client’s server and begin troubleshooting and follow the
+general checklist below:
+
+1. Check the logs
+2. Look for errors
+3. Check processes
+4. Check system stability
+5. Apply fixes as identified
+
+..
+
+   **Sample Status Update to Client:** “Ms./Mr. [Client Name], I’m
+   currently investigating the issue on your server. I can see [brief
+   description of what you found]. I’m working on resolving it now and
+   will update you shortly.”
+
+--------------
+
+Step 5 — Resolution
+~~~~~~~~~~~~~~~~~~~
+
+Once the issue is fixed, verify by: - Checking that the monitor log
+shows ``[SUCCESS]`` messages - Confirming the service status returns to
+``OPERATIONAL``
+
+   **Sample Spiel:** “Ms./Mr. [Client Name], I’ve identified and
+   resolved the issue on your server. [Brief description of what was
+   wrong and what was done]. The system is now back to operational
+   status. Is there anything else I can help you with?”
+
+--------------
+
+Step 6 — Handling Difficult Clients
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Some clients may be frustrated, aggressive, or may insist on escalation
+even when the issue is Tier 1.
+
+Client insists on escalation:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   “I understand your concern, [Client Name]. Let me assure you that I’m
+   actively investigating this. Based on our assessment, this appears to
+   be an isolated issue with your company’s server, which falls within
+   our Tier 1 support scope. I’m fully qualified to resolve this and am
+   working on it right now. I’ll have an update for you within a few
+   minutes.”
+
+Client demands to speak to a manager:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   “I understand, [Client Name]. You’re welcome to reach out to our
+   management team. In the meantime, I want to assure you that I’m
+   actively working on resolving your issue so there’s no further delay.
+   Let me continue working on this while you decide.”
+
+Client claims it’s a company-wide outage:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+   “Thank you for letting me know, [Client Name]. I’ll verify that
+   immediately. Let me check if other companies are reporting similar
+   issues. [Check your resources.] Based on my assessment, this appears
+   to be isolated to your company’s server. I’ll have it resolved
+   shortly.”
+
+General de-escalation:
+^^^^^^^^^^^^^^^^^^^^^^
+
+   “I completely understand your frustration, [Client Name], and I
+   appreciate your patience. I’m treating this as a priority and working
+   to get your service restored as quickly as possible.”
+
+--------------
+
+Step 7 — Documentation
+~~~~~~~~~~~~~~~~~~~~~~
+
+After resolving the incident, document the following in your ticket
+system:
+
+1. **Client Name and Company**
+2. **Issue Description** — What the client reported
+3. **Root Cause** — What was actually wrong
+4. **Resolution** — Steps taken to fix it
+5. **Escalation Decision** — Was it escalated? If so, why? If not, why
+   not?
+6. **Current Status** — Resolved / Ongoing
+
+--------------
+
+3. Key Reminders
+----------------
+
+-  Always remain professional and calm, even with difficult clients.
+-  Follow KB-001 strictly when making escalation decisions.
+-  Document everything — incomplete tickets reflect poorly on team
+   performance.
+-  When in doubt, consult **KB-002** for troubleshooting commands and
+   **KB-003** for service details.
+-  Use the ``#tier1-support`` Teams channel to ask peers for help if
+   you’re stuck.
+
+--------------
