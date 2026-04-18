@@ -1,4 +1,4 @@
-KB-105: Microsoft Teams Structure and Channel Directory
+KB-102: Microsoft Teams Structure and Channel Directory
 =======================================================
 
 **LeanTech IT Solutions — Internal Knowledge Base**
