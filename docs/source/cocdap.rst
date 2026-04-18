@@ -209,7 +209,7 @@ conduct or action that led to the reported infraction.
    pay) during the response and hearing period to protect company and
    client interests.
 
-..
+.. note::
 
    **Note:** Failure to respond to an NTE within the 48-hour response
    period will be treated as a waiver of the right to explain. The
@@ -294,7 +294,7 @@ of action taken depends on the severity and frequency of the infraction.
 |                 | terminated.     |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
 
-..
+.. note::
 
    **Note:** Critical infractions (Section 4.3) bypass the progressive
    steps but still require an NTE and may result in immediate preventive
@@ -321,11 +321,12 @@ specific guidelines apply:
 | 4th false escalation              | Suspension or termination         |
 +-----------------------------------+-----------------------------------+
 
-An escalation is classified as “false” when: - The incident clearly met
-Tier 1 criteria as defined in KB-155 - The engineer did not complete
-reasonable diagnostic steps before escalating - No documented
-justification was provided for the escalation decision
+* An escalation is classified as “false” when: 
+   - The incident clearly met Tier 1 criteria as defined in KB-155 
+   - The engineer did not complete reasonable diagnostic steps before escalating 
+   - No documented justification was provided for the escalation decision
 
+.. note::
    **Important:** If you are unsure whether to escalate, consult with a
    peer on ``#tier1-support`` or contact your Team Leader before
    escalating. Seeking guidance is not penalized — unnecessary
