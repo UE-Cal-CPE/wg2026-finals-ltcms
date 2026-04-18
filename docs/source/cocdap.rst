@@ -68,7 +68,7 @@ Major Infractions
 """""""""""""""""
 
 .. list-table::
-   :widths: 15 30
+   :widths: 15 20
    :header-rows: 1
 
    * - Infraction
