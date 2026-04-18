@@ -32,7 +32,7 @@ Minor Infractions
 ^^^^^^^^^^^^^^^^^
 
 .. list-table::
-   :widths: 40 40 20
+   :widths: 40 40
    :header-rows: 1
 
    * - Infraction
