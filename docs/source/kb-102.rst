@@ -128,7 +128,7 @@ with peers and their Team Leader about that client’s issues.
 
 --------------
 
-1. LeanTech — Engineering (Channel Directory)
+3. LeanTech — Engineering (Channel Directory)
 ---------------------------------------------
 
 Access to this Team is restricted to Tier 2+. Tier 1 engineers do
@@ -137,19 +137,19 @@ Access to this Team is restricted to Tier 2+. Tier 1 engineers do
 +-----------------------------------+-----------------------------------+
 | Channel                           | Purpose                           |
 +===================================+===================================+
-| ``[ENG] General``                  | General engineering discussion   |
+| ``[ENG] General``                 | General engineering discussion   |
 +-----------------------------------+-----------------------------------+
-| ``[ENG] Infrastructure``           | Infrastructure changes, server   |
+| ``[ENG] Infrastructure``          | Infrastructure changes, server   |
 |                                   | provisioning, network             |
 |                                   | modifications                     |
 +-----------------------------------+-----------------------------------+
-| ``[ENG] Security``                 | Security incident response       |
+| ``[ENG] Security``                | Security incident response       |
 |                                   | coordination                      |
 +-----------------------------------+-----------------------------------+
-| ``[ENG] Post-Incident``            | Root cause analysis and          |
+| ``[ENG] Post-Incident``           | Root cause analysis and          |
 |                                   | post-incident reviews             |
 +-----------------------------------+-----------------------------------+
-| ``[ENG] Automation``               | Tooling, scripting, and          |
+| ``[ENG] Automation``              | Tooling, scripting, and          |
 |                                   | automation projects               |
 +-----------------------------------+-----------------------------------+
 
@@ -264,7 +264,7 @@ Channel                     Expected Response Time
 
 --------------
 
-1. Channel Etiquette
+6. Channel Etiquette
 --------------------
 
 -  **Use threads.** Reply in threads to keep channels organized,
