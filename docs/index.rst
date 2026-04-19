@@ -14,46 +14,57 @@ LeanTech IT Solutions services **over 300 client companies** across the
 Philippines. As a Tier 1 Support Engineer, you are the **first line of
 response** for every client-reported incident. This hub exists to make
 sure you always have the right information at the right time — whether
-you’re diagnosing a server error, deciding whether to escalate, or
+you're diagnosing a server error, deciding whether to escalate, or
 documenting a resolved ticket.
 
 Use this knowledge base **every shift**. When in doubt, look it up here
 before asking or escalating.
 
+.. |HR-201| replace:: :doc:`HR-201 <source/hr-201>`
+.. |KB-102| replace:: :doc:`KB-102 <source/kb-102>`
+.. |KB-155| replace:: :doc:`KB-155 <source/kb-155>`
+.. |KB-253| replace:: :doc:`KB-253 <source/kb-253>`
+.. |KB-310| replace:: :doc:`KB-310 <source/kb-310>`
+.. |KB-450| replace:: :doc:`KB-450 <source/kb-450>`
+.. |KB-601| replace:: :doc:`KB-601 <source/kb-601>`
+.. |SOP-7005| replace:: :doc:`SOP-7005 <source/sop-7005>`
+.. |SOP-7010| replace:: :doc:`SOP-7010 <source/sop-7010>`
+.. |SOP-7015| replace:: :doc:`SOP-7015 <source/sop-7015>`
+
 --------------
 
-⚡ Quick Reference — Common Situations
+Quick Reference — Common Situations
 --------------------------------------
 
 +-----------------------------------+-----------------------------------+
 | Situation                         | Document to Open                  |
 +===================================+===================================+
-| Should I escalate this incident?  | **KB-155** — Escalation Policy    |
+| Should I escalate this incident?  | |KB-155| — Escalation Policy      |
 +-----------------------------------+-----------------------------------+
-| What’s the SLA                    | **KB-310** — SLA Reference        |
+| What's the SLA                    | |KB-310| — SLA Reference          |
 | response/resolution time for this |                                   |
 | ticket?                           |                                   |
 +-----------------------------------+-----------------------------------+
-| Client is reporting an LT-XXXX    | **KB-601** — Portal Error Code    |
+| Client is reporting an LT-XXXX    | |KB-601| — Portal Error Code      |
 | portal error                      | Reference                         |
 +-----------------------------------+-----------------------------------+
-| How do I open and document a      | **SOP-7010** — Ticket             |
+| How do I open and document a      | |SOP-7010| — Ticket               |
 | ticket?                           | Documentation Standards           |
 +-----------------------------------+-----------------------------------+
-| What do I say when greeting a     | **SOP-7005** — Tier 1 Call Flow   |
+| What do I say when greeting a     | |SOP-7005| — Tier 1 Call Flow     |
 | client on a call?                 | Guide                             |
 +-----------------------------------+-----------------------------------+
-| Client is being difficult or      | **SOP-7005** — Step 6: Handling   |
+| Client is being difficult or      | |SOP-7005| — Step 6: Handling     |
 | demanding escalation              | Difficult Clients                 |
 +-----------------------------------+-----------------------------------+
-| I think there’s a data breach or  | **KB-155** — Tier 3 + **KB-450**  |
+| I think there's a data breach or  | |KB-155| — Tier 3 + |KB-450|      |
 | security incident                 | — Data Privacy Policy             |
 +-----------------------------------+-----------------------------------+
-| What are the disciplinary         | **HR-201** — Code of Conduct,     |
+| What are the disciplinary         | |HR-201| — Code of Conduct,       |
 | consequences of a false           | Section 7                         |
 | escalation?                       |                                   |
 +-----------------------------------+-----------------------------------+
-| How will my performance be        | **SOP-7015** — QA Scoring and     |
+| How will my performance be        | |SOP-7015| — QA Scoring and       |
 | scored?                           | Evaluation                        |
 +-----------------------------------+-----------------------------------+
 
@@ -68,26 +79,26 @@ information.
 +-----------------------------------+-----------------------------------+
 | Document                          | What It Covers                    |
 +===================================+===================================+
-| **KB-155** — Escalation Policy    | When and how to escalate to Tier  |
+| |KB-155| — Escalation Policy      | When and how to escalate to Tier  |
 |                                   | 2 or Tier 3. The most critical    |
 |                                   | document for daily                |
 |                                   | decision-making.                  |
 +-----------------------------------+-----------------------------------+
-| **KB-253** — LeanTech Services    | How our infrastructure works —    |
+| |KB-253| — LeanTech Services      | How our infrastructure works —    |
 | Overview                          | server stack, the LeanTech        |
 |                                   | Monitor Service, SSH access, and  |
 |                                   | client setup.                     |
 +-----------------------------------+-----------------------------------+
-| **KB-310** — Service Level        | Response and resolution time      |
+| |KB-310| — Service Level          | Response and resolution time      |
 | Agreement Reference               | targets per severity level. Know  |
 |                                   | these by heart.                   |
 +-----------------------------------+-----------------------------------+
-| **KB-450** — Data Privacy &       | Your legal obligations when       |
+| |KB-450| — Data Privacy &         | Your legal obligations when       |
 | Confidentiality Policy            | handling client data, including   |
 |                                   | GDPR, HIPAA, and PCI-DSS          |
 |                                   | compliance requirements.          |
 +-----------------------------------+-----------------------------------+
-| **KB-601** — Portal Error Code    | Full list of LT-XXXX error codes  |
+| |KB-601| — Portal Error Code      | Full list of LT-XXXX error codes  |
 | Reference                         | with severity levels,             |
 |                                   | descriptions, and recommended     |
 |                                   | actions.                          |
@@ -104,18 +115,18 @@ from start to finish.
 +-----------------------------------+-----------------------------------+
 | Document                          | What It Covers                    |
 +===================================+===================================+
-| **SOP-7005** — Tier 1 Support     | The exact call flow to follow on  |
-| Call Flow Guide                   | every client interaction —        |
-|                                   | greeting, issue intake,           |
-|                                   | investigation, resolution, and    |
-|                                   | handling difficult clients.       |
+| |SOP-7005| — Tier 1 Support       | The recommended call flow to      |
+| Call Flow Guide                   | follow on every client            | 
+|                                   | interaction: greeting, issue      |
+|                                   | intake, investigation, resolution,|
+|                                   | andhandling difficult clients.    |
 +-----------------------------------+-----------------------------------+
-| **SOP-7010** — Incident Ticket    | Required fields, best practices,  |
+| |SOP-7010| — Incident Ticket      | Required fields, best practices,  |
 | Documentation Standards           | and the full ticket lifecycle.    |
 |                                   | Every interaction must be         |
 |                                   | documented.                       |
 +-----------------------------------+-----------------------------------+
-| **SOP-7015** — QA Scoring &       | How your performance is evaluated |
+| |SOP-7015| — QA Scoring &         | How your performance is evaluated |
 | Evaluation                        | across 5 categories:              |
 |                                   | Communication, Technical          |
 |                                   | Competence, Escalation Judgment,  |
@@ -131,7 +142,7 @@ HR Policies
 +-----------------------------------+-----------------------------------+
 | Document                          | What It Covers                    |
 +===================================+===================================+
-| **HR-201** — Code of Conduct &    | Standards of professional         |
+| |HR-201| — Code of Conduct &      | Standards of professional         |
 | Disciplinary Action Policy        | conduct, categories of            |
 |                                   | infractions (minor, major,        |
 |                                   | critical), the progressive        |
@@ -147,8 +158,9 @@ HR Policies
    These are the most common mistakes that result in disciplinary
    action. Read them carefully.
 
--  **Do NOT escalate unless KB-155 criteria are clearly met.** False
-   escalations are a Major Infraction under HR-201 and are tracked on a
+-  **Do NOT escalate unless** |KB-155| **criteria are clearly met.**
+   False escalations are a Major Infraction under |HR-201| and are
+   tracked on a
    90-day rolling basis. If unsure, ask in ``#tier1-support`` first.
 -  **Document every interaction.** A resolved ticket with incomplete
    documentation is treated the same as a poorly handled one during QA
@@ -168,35 +180,10 @@ HR Policies
 
 --------------
 
-Communication Channels
--------------------------------------
-
-+-----------------------------------+-----------------------------------+
-| Channel                           | Use For                           |
-+===================================+===================================+
-| ``#tier1-support``                | Peer consultation — ask before    |
-|                                   | escalating when unsure            |
-+-----------------------------------+-----------------------------------+
-| ``#tier2-escalation``             | Tier 2 escalations — 150+         |
-|                                   | companies affected with shared    |
-|                                   | root cause                        |
-+-----------------------------------+-----------------------------------+
-| ``#tier3-escalation``             | Tier 3 escalations — any          |
-|                                   | confirmed or suspected security   |
-|                                   | incident                          |
-+-----------------------------------+-----------------------------------+
-
-..
-
-   **Always notify your Team Leader** when escalating to Tier 3, in
-   addition to posting in the channel.
-
---------------
-
 Shift Checklist
 ------------------
 
-Use this at the start of every shift to make sure you’re ready:
+Use this at the start of every shift to make sure you're ready:
 
 -  ☐ Log in to the ticketing system and check for open/pending tickets
    from the previous shift
@@ -208,8 +195,9 @@ Use this at the start of every shift to make sure you’re ready:
 
 --------------
 
-*Last updated: April 2026 \| Maintained by LeanTech IT Solutions
-Operations Team* *For questions about this knowledge base, contact your
+*Last updated: April 2022 \| Maintained by LeanTech IT Solutions
+Operations Team*
+*For questions about this knowledge base, contact your
 Team Leader or Operations Manager.*
 
 .. sidebar:: Sidebar Title
