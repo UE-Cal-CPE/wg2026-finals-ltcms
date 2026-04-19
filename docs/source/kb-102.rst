@@ -263,7 +263,7 @@ Channel                    Expected Response Time
 
 --------------
 
-1. Channel Etiquette
+6. Channel Etiquette
 --------------------
 
 -  **Use threads.** Reply in threads to keep channels organized,
