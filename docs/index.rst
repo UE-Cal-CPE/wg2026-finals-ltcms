@@ -27,6 +27,7 @@ before asking or escalating.
 .. |KB-310| replace:: :doc:`KB-310 <source/kb-310>`
 .. |KB-450| replace:: :doc:`KB-450 <source/kb-450>`
 .. |KB-601| replace:: :doc:`KB-601 <source/kb-601>`
+.. |KB-612| replace:: :doc:`KB-612 <source/kb-612>`
 .. |SOP-7005| replace:: :doc:`SOP-7005 <source/sop-7005>`
 .. |SOP-7010| replace:: :doc:`SOP-7010 <source/sop-7010>`
 .. |SOP-7015| replace:: :doc:`SOP-7015 <source/sop-7015>`
@@ -83,6 +84,9 @@ information.
 |                                   | 2 or Tier 3. The most critical    |
 |                                   | document for daily                |
 |                                   | decision-making.                  |
++-----------------------------------+-----------------------------------+
+| |KB-612| — Escalated Incident     | Required page-by-page EIR format  |
+| Review Template                   | for Tier 2 and Tier 3 incidents.  |
 +-----------------------------------+-----------------------------------+
 | |KB-253| — LeanTech Services      | How our infrastructure works —    |
 | Overview                          | server stack, the LeanTech        |
@@ -203,7 +207,7 @@ Team Leader or Operations Manager.*
 
    source/kb-102
    source/kb-155
-   source/kb-210
+   source/kb-612
    source/kb-253
    source/kb-310
    source/kb-450

@@ -93,7 +93,8 @@ Every incident ticket must contain the following information:
 |                                   | resolution or escalation          |
 +-----------------------------------+-----------------------------------+
 | **Severity**                      | Low / Medium / High / Critical    |
-|                                   | (refer to KB-601 for error code   |
+|                                   | (refer to :doc:`KB-601 <kb-601>`  |
+|                                   | for error code                    |
 |                                   | severity)                         |
 +-----------------------------------+-----------------------------------+
 | **Affected System**               | Server hostname, service name, or |
@@ -178,8 +179,8 @@ Don’t:
    and verified
 -  **Resolved → Closed:** After the client confirms the issue is
    resolved (or after 48 hours with no client response)
--  **In Progress → Escalated:** Only when escalation criteria per KB-155
-   are met
+-  **In Progress → Escalated:** Only when escalation criteria per
+   :doc:`KB-155 <kb-155>` are met
 
 5.1 Live Incident Notes and EIR Flow
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -195,7 +196,7 @@ Don’t:
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 All EIR submissions must follow the page sequence and section naming in
-:doc:`KB-210 EIR Template <kb-210>`.
+:doc:`KB-612 EIR Template <kb-612>`.
 
 -  **Page 1 - Incident Overview:** call reference and title, priority,
    date, authors, status, stakeholders, summary, impact, decisions,

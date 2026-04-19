@@ -176,7 +176,7 @@ To keep incident records complete and consistent:
    **Escalated Incident Review (EIR)** is required.
 3. **Tier 2 or Tier 3 outcome:** Convert Live Incident Notes into an
    **EIR** using the page-by-page format in
-   :doc:`KB-210 EIR Template <kb-210>`, then submit through your
+   :doc:`KB-612 EIR Template <kb-612>`, then submit through your
    team’s current documentation process.
 
 --------------

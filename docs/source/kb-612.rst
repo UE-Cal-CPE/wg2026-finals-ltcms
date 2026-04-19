@@ -1,9 +1,9 @@
-Escalated Incident Review (EIR) Template
+KB-612: Escalated Incident Review (EIR) Template
 ========================================
 
 **LeanTech IT Solutions — Standard Template**
 
-**Document ID:** KB-210
+**Document ID:** KB-612
 
 **Effective Date:** February 11, 2020
 

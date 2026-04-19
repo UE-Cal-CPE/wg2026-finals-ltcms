@@ -44,7 +44,8 @@ All employees are expected to:
    and knowledge base guidelines
 -  Treat clients, colleagues, and supervisors with courtesy and respect
    at all times
--  Protect confidential company and client information (refer to KB-450)
+-  Protect confidential company and client information (refer to
+   :doc:`KB-450 <kb-450>`)
 -  Report for scheduled shifts on time and follow proper absence
    notification procedures
 -  Use company tools, systems, and resources only for authorized
@@ -76,7 +77,8 @@ All employees are expected to:
 |                                   | interactions                      |
 +-----------------------------------+-----------------------------------+
 | Failure to follow SOP             | Deviating from established call   |
-|                                   | flow (SOP-7005) without           |
+|                                   | flow (:doc:`SOP-7005 <sop-7005>`) |
+|                                   | without                           |
 |                                   | justification                     |
 +-----------------------------------+-----------------------------------+
 | Unauthorized break extension      | Exceeding scheduled break times   |
@@ -92,7 +94,8 @@ All employees are expected to:
 | False or unnecessary escalation   | Escalating an incident to Tier 2  |
 |                                   | or Tier 3 that does not meet the  |
 |                                   | escalation criteria defined in    |
-|                                   | KB-155. This wastes senior        |
+|                                   | :doc:`KB-155 <kb-155>`. This      |
+|                                   | wastes senior                     |
 |                                   | engineering resources and delays  |
 |                                   | resolution of genuine critical    |
 |                                   | incidents.                        |
@@ -312,7 +315,8 @@ specific guidelines apply:
 | Occurrence (within 90-day period) | Action                            |
 +===================================+===================================+
 | 1st false escalation              | Verbal warning + mandatory review |
-|                                   | of KB-155 with Team Leader        |
+|                                   | of :doc:`KB-155 <kb-155>` with    |
+|                                   | Team Leader                       |
 +-----------------------------------+-----------------------------------+
 | 2nd false escalation              | Written warning                   |
 +-----------------------------------+-----------------------------------+
@@ -322,7 +326,7 @@ specific guidelines apply:
 +-----------------------------------+-----------------------------------+
 
 An escalation is classified as “false” when: 
-   - The incident clearly met Tier 1 criteria as defined in KB-155 
+   - The incident clearly met Tier 1 criteria as defined in :doc:`KB-155 <kb-155>` 
    - The engineer did not complete reasonable diagnostic steps before escalating 
    - No documented justification was provided for the escalation decision
 
