@@ -6,8 +6,8 @@ Welcome to the LeanTech Knowledge Hub
    professional support to our clients.
 
 .. rst-class:: access-status-bar
-
-**Access Level:** Tier 1 Support (T1-ITS) - Only Tier 1 Support docs are currently accessible.
+   
+   **Access Level:** Tier 1 Support (T1-ITS) - Only Tier 1 Support docs are currently accessible.
 
 --------------
 
