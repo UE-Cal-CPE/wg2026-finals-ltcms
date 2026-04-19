@@ -148,13 +148,13 @@ Don’t:
 
 ::
 
-   [New] → [Assigned] → [In Progress] → [Resolved] → [Closed]
-                               ↓
-                        [Escalated to T2/T3]
-                               ↓
-                     [Returned to T1 / Resolved by T2/T3]
-                               ↓
-                            [Closed]
+               [New] → [Assigned] → [In Progress] → [Resolved] → [Closed]
+                                          ↓
+                                    [Escalated to T2/T3]
+                                          ↓
+                                 [Returned to T1 / Resolved by T2/T3]
+                                          ↓
+                                       [Closed]
 
 -  **Open → In Progress:** When you begin actively working on the issue
 -  **In Progress → Resolved:** When the technical fix has been applied
