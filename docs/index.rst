@@ -160,8 +160,8 @@ Critical Reminders
 
 -  **Do NOT escalate unless** |KB-155| **criteria are clearly met.**
    False escalations are a Major Infraction under |HR-201| and are
-   tracked on a
-   90-day rolling basis. If unsure, ask in ``#tier1-support`` first.
+   tracked on a 90-day rolling basis. If unsure, ask your peer, 
+   Team Leader, or Operations Manager first before escalating.
 -  **Document every interaction.** A resolved ticket with incomplete
    documentation is treated the same as a poorly handled one during QA
    review.
