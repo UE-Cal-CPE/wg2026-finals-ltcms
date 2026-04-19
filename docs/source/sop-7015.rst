@@ -56,8 +56,10 @@ Category 1: Client Communication (25 points)
 +-----------------------+-----------------------+-----------------------+
 | Criteria              | Points                | Description           |
 +=======================+=======================+=======================+
-| Professional greeting | 5                     | Followed SOP-7005     |
-| and identification    |                       | call flow — proper    |
+| Professional greeting | 5                     | Followed              |
+| and identification    |                       | :doc:`SOP-7005        |
+|                       |                       | <sop-7005>` call flow |
+|                       |                       | — proper              |
 |                       |                       | greeting, identified  |
 |                       |                       | self and team         |
 +-----------------------+-----------------------+-----------------------+
@@ -102,7 +104,10 @@ Category 2: Technical Competence (25 points)
 | Appropriate tools and | 5                     | Used the right        |
 | commands used         |                       | commands for the      |
 |                       |                       | situation (refer to   |
-|                       |                       | KB-601 and KB-253)    |
+|                       |                       | :doc:`KB-601          |
+|                       |                       | <kb-601>` and         |
+|                       |                       | :doc:`KB-253          |
+|                       |                       | <kb-253>`)            |
 +-----------------------+-----------------------+-----------------------+
 
 Category 3: Escalation Judgment (20 points)
@@ -112,7 +117,9 @@ Category 3: Escalation Judgment (20 points)
 | Criteria              | Points                | Description           |
 +=======================+=======================+=======================+
 | Correct escalation    | 15                    | Escalated only when   |
-| decision              |                       | KB-155 criteria were  |
+| decision              |                       | :doc:`KB-155          |
+|                       |                       | <kb-155>` criteria    |
+|                       |                       | were                  |
 |                       |                       | met; did NOT escalate |
 |                       |                       | Tier 1 issues         |
 +-----------------------+-----------------------+-----------------------+
@@ -129,7 +136,8 @@ Category 3: Escalation Judgment (20 points)
 ..
 
    **Note:** Incorrect escalation of a Tier 1 issue results in 0 points
-   for this category and may trigger HR-201 disciplinary procedures.
+   for this category and may trigger :doc:`HR-201 <hr-201>`
+   disciplinary procedures.
 
 Category 4: Documentation (20 points)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -138,7 +146,8 @@ Category 4: Documentation (20 points)
 | Criteria              | Points                | Description           |
 +=======================+=======================+=======================+
 | Complete ticket       | 8                     | All required fields   |
-| fields                |                       | in SOP-7010 are       |
+| fields                |                       | in :doc:`SOP-7010     |
+|                       |                       | <sop-7010>` are       |
 |                       |                       | populated, including  |
 |                       |                       | Live Incident Notes.  |
 +-----------------------+-----------------------+-----------------------+
@@ -162,7 +171,8 @@ Category 5: SLA Compliance (10 points)
 | Response time within  | 5                     | First response within |
 | SLA                   |                       | the target time for   |
 |                       |                       | the severity level    |
-|                       |                       | (KB-310)              |
+|                       |                       | (:doc:`KB-310         |
+|                       |                       | <kb-310>`)            |
 +-----------------------+-----------------------+-----------------------+
 | Resolution time       | 5                     | Issue resolved within |
 | within SLA            |                       | the target time for   |
@@ -194,8 +204,9 @@ Category 5: SLA Compliance (10 points)
 +-----------------------+-----------------------+-----------------------+
 | Below 60              | **Unsatisfactory**    | Escalated to          |
 |                       |                       | Operations Manager;   |
-|                       |                       | may trigger HR-201    |
-|                       |                       | PIP process           |
+|                       |                       | may trigger           |
+|                       |                       | :doc:`HR-201          |
+|                       |                       | <hr-201>` PIP process |
 +-----------------------+-----------------------+-----------------------+
 
 --------------
@@ -240,7 +251,7 @@ Possible actions include:
 
 1. Mandatory team coaching session with the Team Leader
 2. Temporary team checklist requirement for all incidents
-3. Individual HR-201 review for each involved member when evidence
-   supports shared responsibility
+3. Individual :doc:`HR-201 <hr-201>` review for each involved member
+   when evidence supports shared responsibility
 
 --------------

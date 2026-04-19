@@ -230,7 +230,7 @@ If you are unsure which regulations apply to a client:
 -  Do not store client data on personal devices, USB drives, or
    unauthorized cloud services
 -  Report any suspected data breach or unauthorized access immediately
-   (refer to KB-155, Tier 3)
+   (refer to :doc:`KB-155 <kb-155>`, Tier 3)
 
 4.2 During Client Interactions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -306,7 +306,8 @@ also required within 72 hours.
 -------------
 
 Violations of this policy are treated as Major or Critical infractions
-under HR-201 (Code of Conduct and Disciplinary Action Policy) and may
+under :doc:`HR-201 <hr-201>` (Code of Conduct and Disciplinary Action
+Policy) and may
 result in:
 
 -  Immediate suspension pending investigation

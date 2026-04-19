@@ -58,7 +58,7 @@ at the beginning of the call.
 Step 3 — Issue Categorization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Using **KB-155 (Escalation Policy)**, determine the tier level of the
+Using **:doc:`KB-155 <kb-155>` (Escalation Policy)**, determine the tier level of the
 incident:
 
 -  **Is this a single-company issue?** → Likely **Tier 1**
@@ -167,7 +167,7 @@ your ticket system:
 6. **Current Status** — Resolved / Ongoing
 7. **Escalated Incident Review (EIR)** — Required only for Tier 2 or
    Tier 3 incidents. Convert Live Incident Notes using the required
-   page-by-page EIR format in :doc:`KB-210 EIR Template <kb-210>`. If
+   page-by-page EIR format in :doc:`KB-612 EIR Template <kb-612>`. If
    the incident remains Tier 1, no separate EIR is required.
 
 --------------
@@ -176,11 +176,12 @@ your ticket system:
 ----------------
 
 -  Always remain professional and calm, even with difficult clients.
--  Follow KB-155 strictly when making escalation decisions.
+-  Follow :doc:`KB-155 <kb-155>` strictly when making escalation
+   decisions.
 -  Document everything — incomplete tickets reflect poorly on team
    performance.
--  When in doubt, consult **KB-601** for error-code diagnostics and
-   **KB-253** for service details.
+-  When in doubt, consult :doc:`KB-601 <kb-601>` for error-code
+   diagnostics and :doc:`KB-253 <kb-253>` for service details.
 -  Use the ``#tier1-support`` Teams channel to ask peers for help if
    you’re stuck.
 

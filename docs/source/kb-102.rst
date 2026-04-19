@@ -70,7 +70,7 @@ shift.
       - All Tier 1 engineers and Client(s)
       - Use threads. Tag specific people with ``@name`` for urgent questions. Do not post client-sensitive data; use ticket IDs instead.
     * - ``#tier2-escalation``
-      - **Escalation channel for Tier 2.** Only post here when the incident meets Tier 2 criteria per KB-155.
+      - **Escalation channel for Tier 2.** Only post here when the incident meets Tier 2 criteria per :doc:`KB-155 <kb-155>`.
       - Tier 1 engineers (to escalate), Tier 2 engineers (to respond)
       - Include ticket ID, affected company/companies, summary of symptoms, what you have already tried, and why you believe this is Tier 2.
     * - ``#tier3-escalation``
@@ -79,7 +79,7 @@ shift.
       - Include ticket ID, affected system, nature of the security concern, and timestamp of discovery. After posting, immediately DM your Team Leader.
 
 **Rules for client support channels:** 
-   - Use professional language at all times (refer to SOP-7005) 
+  - Use professional language at all times (refer to :doc:`SOP-7005 <sop-7005>`) 
    - Do not discuss internal LeanTech matters, other clients, or internal policies 
    - Do not share server credentials, IP addresses, or system architecture details in client channels 
    - All client communication in these channels is logged and subject to QA review
@@ -198,13 +198,14 @@ Access to this Team is restricted to Tier 2+. Tier 1 engineers do
 | raising a Tier 1 issue            |                                   |
 +-----------------------------------+-----------------------------------+
 | You need to escalate to Tier 2    | ``#tier2-escalation``             |
-| (meets KB-155 criteria)           |                                   |
+| (meets :doc:`KB-155 <kb-155>`     |                                   |
+| criteria)                         |                                   |
 +-----------------------------------+-----------------------------------+
 | You suspect a security breach     | ``#tier3-escalation`` + DM to     |
 |                                   | Team Leader                       |
 +-----------------------------------+-----------------------------------+
-| You want to communicate with a    | ``#team-{company_code}``          |
-| client                            |                                   |
+| You want to coordinate with your  | ``#team-{company_code}``          |
+| team or ask help from peers       |                                   |
 +-----------------------------------+-----------------------------------+
 | You have an HR question           | ``#hr-helpdesk``                  |
 +-----------------------------------+-----------------------------------+
@@ -257,7 +258,6 @@ Channel                    Expected Response Time
 ``#tier1-support``         Best-effort; peers respond when available
 ``#tier2-escalation``      15 minutes (during business hours)
 ``#tier3-escalation``      5 minutes (24/7)
-``#client-{company_code}`` Per SLA (refer to KB-310)
 ``#hr-helpdesk``           1 business day
 ========================== =========================================
 
