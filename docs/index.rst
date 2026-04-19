@@ -1,14 +1,13 @@
-👋 Welcome to the LeanTech Support Hub
+Welcome to the LeanTech Knowledge Hub
 ======================================
 
-   **Your single source of truth for every shift.** This knowledge base
-   contains all the policies, procedures, and reference materials you
-   need to deliver fast, accurate, and professional support to our
-   clients.
+   This knowledge base contains all the policies, procedures, 
+   and reference materials you need to deliver fast, accurate, and 
+   professional support to our clients.
 
 --------------
 
-🏢 About This Knowledge Base
+About This Knowledge Base
 ----------------------------
 
 LeanTech IT Solutions services **over 300 client companies** across the
@@ -30,9 +29,6 @@ before asking or escalating.
 | Situation                         | Document to Open                  |
 +===================================+===================================+
 | Should I escalate this incident?  | **KB-155** — Escalation Policy    |
-+-----------------------------------+-----------------------------------+
-| How many companies need to be     | **KB-155** — 150+ companies with  |
-| affected to escalate to Tier 2?   | a shared root cause               |
 +-----------------------------------+-----------------------------------+
 | What’s the SLA                    | **KB-310** — SLA Reference        |
 | response/resolution time for this |                                   |
@@ -63,7 +59,7 @@ before asking or escalating.
 
 --------------
 
-📚 Knowledge Base Articles
+Knowledge Base Articles
 --------------------------
 
 Reference documents covering core policies, services, and technical
@@ -99,7 +95,7 @@ information.
 
 --------------
 
-📋 Standard Operating Procedures
+Standard Operating Procedures
 --------------------------------
 
 Step-by-step guides that govern how you handle every client interaction
@@ -129,7 +125,7 @@ from start to finish.
 
 --------------
 
-📁 HR Policies
+HR Policies
 --------------
 
 +-----------------------------------+-----------------------------------+
@@ -172,7 +168,7 @@ from start to finish.
 
 --------------
 
-📞 Escalation Channels (Quick Access)
+Communication Channels
 -------------------------------------
 
 +-----------------------------------+-----------------------------------+
@@ -197,49 +193,7 @@ from start to finish.
 
 --------------
 
-📊 Your QA Scorecard at a Glance
---------------------------------
-
-Your performance is evaluated on 5 categories totaling **100 points**:
-
-+-----------------------+-----------------------+-----------------------+
-| Category              | Points                | Key Focus             |
-+=======================+=======================+=======================+
-| Client Communication  | 25 pts                | Professional          |
-|                       |                       | greeting, empathy,    |
-|                       |                       | proactive updates,    |
-|                       |                       | clean closing         |
-+-----------------------+-----------------------+-----------------------+
-| Technical Competence  | 25 pts                | Correct diagnostic    |
-|                       |                       | approach, accurate    |
-|                       |                       | root cause            |
-|                       |                       | identification        |
-+-----------------------+-----------------------+-----------------------+
-| Escalation Judgment   | 20 pts                | Only escalate when    |
-|                       |                       | KB-155 criteria are   |
-|                       |                       | met — 0 pts for false |
-|                       |                       | escalation            |
-+-----------------------+-----------------------+-----------------------+
-| Documentation         | 20 pts                | Complete ticket       |
-|                       |                       | fields, clear         |
-|                       |                       | resolution notes,     |
-|                       |                       | proper categorization |
-+-----------------------+-----------------------+-----------------------+
-| SLA Compliance        | 10 pts                | Response and          |
-|                       |                       | resolution within     |
-|                       |                       | targets defined in    |
-|                       |                       | KB-310                |
-+-----------------------+-----------------------+-----------------------+
-
-..
-
-   Scoring **90+** makes you eligible for monthly recognition and
-   performance bonuses. Scoring **below 60** may trigger an HR-201 PIP
-   process.
-
---------------
-
-🕐 Shift Checklist
+Shift Checklist
 ------------------
 
 Use this at the start of every shift to make sure you’re ready:
@@ -258,9 +212,8 @@ Use this at the start of every shift to make sure you’re ready:
 Operations Team* *For questions about this knowledge base, contact your
 Team Leader or Operations Manager.*
 
-.. note::
-
-   This project is under active development.
+.. sidebar:: Sidebar Title
+   :subtitle: Optional Subtitle
 
 .. toctree::
    :maxdepth: 1
