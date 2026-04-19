@@ -41,15 +41,15 @@ shift.
       - Purpose
       - Who Can Post
       - Notifications
-    * - ``#general``
+    * - ``[GEN] Announcements``
       - Company-wide announcements from management
       - Operations Managers only
       - All members notified
-    * - ``#shift-briefing``
+    * - ``[GEN] Shift Briefing``
       - Start-of-shift updates, known issues, and carryover tickets from the previous shift
       - Team Leaders
       - All on-shift members
-    * - ``#chill-zone``
+    * - ``[GEN] Chill Zone``
       - Informal, non-work conversation (keep it respectful)
       - All members
       - Muted by default
@@ -65,15 +65,15 @@ shift.
       - Purpose
       - Who Can Post
       - Usage Guidelines
-    * - ``#tier1-support``
+    * - ``[SUP] Tier 1 Support``
       - Direct communication medium with client(s) and real-time peer collaboration for Tier 1 engineers.
       - All Tier 1 engineers and Client(s)
       - Use threads. Tag specific people with ``@name`` for urgent questions. Do not post client-sensitive data; use ticket IDs instead.
-    * - ``#tier2-escalation``
+    * - ``[SUP] Tier 2 Escalation``
       - **Escalation channel for Tier 2.** Only post here when the incident meets Tier 2 criteria per :doc:`KB-155 <kb-155>`.
       - Tier 1 engineers (to escalate), Tier 2 engineers (to respond)
       - Include ticket ID, affected company/companies, summary of symptoms, what you have already tried, and why you believe this is Tier 2.
-    * - ``#tier3-escalation``
+    * - ``[SUP] Tier 3 Escalation``
       - **Escalation channel for Tier 3 (Security Incidents).** Only post here for confirmed or suspected security breaches, data loss, or server compromises.
       - All staff (to report), Tier 3 specialists (to respond)
       - Include ticket ID, affected system, nature of the security concern, and timestamp of discovery. After posting, immediately DM your Team Leader.
@@ -99,8 +99,8 @@ with peers and their Team Leader about that client’s issues.
     * - Channel Naming Convention
       - Example
       - Purpose
-    * - ``#team-{company_code}``
-      - ``#team-google``
+    * - ``[TEAM] {Company Name}``
+      - ``[TEAM] Google Philippines``
       - Communication channel for the Tier 1 support team assigned to that client. Used for internal coordination and updates related to that client’s tickets and issues.
 
 2.4 Operational Channels
@@ -113,22 +113,22 @@ with peers and their Team Leader about that client’s issues.
     * - Channel
       - Purpose
       - Who Can Post
-    * - ``#incident-log``
+    * - ``[OPS] Incident Log``
       - Automated feed of new and updated incident tickets from the ticketing system
       - System (automated)
-    * - ``#maintenance-schedule``
+    * - ``[OPS] Maintenance Schedule``
       - Planned maintenance windows, scheduled downtime notifications
       - Team Leaders, Operations Managers
-    * - ``#outage-tracker``
+    * - ``[OPS] Outage Tracker``
       - Active outage tracking for incidents affecting multiple clients
       - Team Leaders, Operations Managers
-    * - ``#change-requests``
+    * - ``[OPS] Change Requests``
       - Change request submissions and approvals
       - Tier 2 engineers, Operations Managers
 
 --------------
 
-3. LeanTech — Engineering (Channel Directory)
+1. LeanTech — Engineering (Channel Directory)
 ---------------------------------------------
 
 Access to this Team is restricted to Tier 2+. Tier 1 engineers do
@@ -137,27 +137,27 @@ Access to this Team is restricted to Tier 2+. Tier 1 engineers do
 +-----------------------------------+-----------------------------------+
 | Channel                           | Purpose                           |
 +===================================+===================================+
-| ``#eng-general``                  | General engineering discussion    |
+| ``[ENG] General``                  | General engineering discussion   |
 +-----------------------------------+-----------------------------------+
-| ``#eng-infrastructure``           | Infrastructure changes, server    |
+| ``[ENG] Infrastructure``           | Infrastructure changes, server   |
 |                                   | provisioning, network             |
 |                                   | modifications                     |
 +-----------------------------------+-----------------------------------+
-| ``#eng-security``                 | Security incident response        |
+| ``[ENG] Security``                 | Security incident response       |
 |                                   | coordination                      |
 +-----------------------------------+-----------------------------------+
-| ``#eng-post-incident``            | Root cause analysis and           |
+| ``[ENG] Post-Incident``            | Root cause analysis and          |
 |                                   | post-incident reviews             |
 +-----------------------------------+-----------------------------------+
-| ``#eng-automation``               | Tooling, scripting, and           |
+| ``[ENG] Automation``               | Tooling, scripting, and          |
 |                                   | automation projects               |
 +-----------------------------------+-----------------------------------+
 
 .. note::
 
    **Note for Tier 1 engineers:** You do not need access to Engineering
-   channels. Escalations are handled through ``#tier2-escalation`` and
-   ``#tier3-escalation`` in the Operations Team. Do not request access
+   channels. Escalations are handled through ``[SUP] Tier 2 Escalation`` and
+   ``[SUP] Tier 3 Escalation`` in the Operations Team. Do not request access
    to Engineering channels unless directed by your Operations Manager.
 
 --------------
@@ -168,16 +168,16 @@ Access to this Team is restricted to Tier 2+. Tier 1 engineers do
 +-----------------------+-----------------------+-----------------------+
 | Channel               | Purpose               | Access                |
 +=======================+=======================+=======================+
-| ``#hr-announcements`` | Company-wide HR       | All employees         |
+| ``[HR] Announcements``| Company-wide HR       | All employees         |
 |                       | updates (policy       | (read-only)           |
 |                       | changes, benefits,    |                       |
 |                       | events)               |                       |
 +-----------------------+-----------------------+-----------------------+
-| ``#hr-helpdesk``      | HR questions, leave   | All employees         |
+| ``[HR] Helpdesk``     | HR questions, leave   | All employees         |
 |                       | requests, payroll     |                       |
 |                       | inquiries             |                       |
 +-----------------------+-----------------------+-----------------------+
-| ``#hr-private``       | Confidential HR       | HR staff only         |
+| ``[HR] Private``      | Confidential HR       | HR staff only         |
 |                       | matters (disciplinary |                       |
 |                       | actions, NTEs,        |                       |
 |                       | grievances)           |                       |
@@ -194,25 +194,25 @@ Access to this Team is restricted to Tier 2+. Tier 1 engineers do
 +-----------------------------------+-----------------------------------+
 | Scenario                          | Channel                           |
 +===================================+===================================+
-| There is an active client call    | ``#tier1-support``                |
+| There is an active client call    | ``[SUP] Tier 1 Support``          |
 | raising a Tier 1 issue            |                                   |
 +-----------------------------------+-----------------------------------+
-| You need to escalate to Tier 2    | ``#tier2-escalation``             |
+| You need to escalate to Tier 2    | ``[SUP] Tier 2 Escalation``       |
 | (meets :doc:`KB-155 <kb-155>`     |                                   |
 | criteria)                         |                                   |
 +-----------------------------------+-----------------------------------+
-| You suspect a security breach     | ``#tier3-escalation`` + DM to     |
-|                                   | Team Leader                       |
+| You suspect a security breach     | ``[SUP] Tier 3 Escalation``       |
+|                                   | + DM to Team Leader               |
 +-----------------------------------+-----------------------------------+
-| You want to coordinate with your  | ``#team-{company_code}``          |
+| You want to coordinate with your  | ``[TEAM] {Company Name}``         |
 | team or ask help from peers       |                                   |
 +-----------------------------------+-----------------------------------+
-| You have an HR question           | ``#hr-helpdesk``                  |
+| You have an HR question           | ``[HR] Helpdesk``                 |
 +-----------------------------------+-----------------------------------+
-| You want to chat informally with  | ``#chill-zone``                   |
+| You want to chat informally with  | ``[CHILL] Zone``                  |
 | colleagues                        |                                   |
 +-----------------------------------+-----------------------------------+
-| You need to report a personal     | DM to HR or ``#hr-helpdesk``      |
+| You need to report a personal     | DM to HR or ``[HR] Helpdesk``     |
 | issue (NTE, grievance)            | (private)                         |
 +-----------------------------------+-----------------------------------+
 
@@ -253,27 +253,27 @@ sensitive data (use the approved credential management system)
 5.4 Response Expectations
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-========================== =========================================
-Channel                    Expected Response Time
-========================== =========================================
-``#tier1-support``         Best-effort; peers respond when available
-``#tier2-escalation``      15 minutes (during business hours)
-``#tier3-escalation``      5 minutes (24/7)
-``#hr-helpdesk``           1 business day
-========================== =========================================
+=========================== =========================================
+Channel                     Expected Response Time
+=========================== =========================================
+``[SUP] Tier 1 Support``    Best-effort; peers respond when available
+``[SUP] Tier 2 Escalation`` 15 minutes (during business hours)
+``[SUP] Tier 3 Escalation`` 5 minutes (24/7)
+``[HR] Helpdesk``           1 business day
+=========================== =========================================
 
 --------------
 
-6. Channel Etiquette
+1. Channel Etiquette
 --------------------
 
 -  **Use threads.** Reply in threads to keep channels organized,
-   especially in ``#tier1-support`` and client channels.
+   especially in ``[SUP] Tier 1 Support`` and client channels.
 -  **Be concise.** State the issue, what you’ve tried, and what you
    need. Avoid walls of text.
 -  **Use ticket IDs.** Reference ticket numbers (e.g.,
    ``INC-2026-04-00142``) instead of repeating full issue descriptions.
--  **No memes or GIFs in work channels.** Keep ``#chill-zone`` for
+-  **No memes or GIFs in work channels.** Keep ``[CHILL] Zone`` for
    informal content.
 -  **Respect do-not-disturb hours.** Do not tag off-shift colleagues
    unless it is a Tier 3 emergency.
