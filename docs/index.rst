@@ -180,21 +180,6 @@ Critical Reminders
 
 --------------
 
-Shift Checklist
-------------------
-
-Use this at the start of every shift to make sure you're ready:
-
--  ☐ Log in to the ticketing system and check for open/pending tickets
-   from the previous shift
--  ☐ Check ``#tier1-support``, ``#tier2-escalation``, and
-   ``#tier3-escalation`` channels for any active incidents
--  ☐ Confirm your Microsoft Teams notifications are active and visible
--  ☐ Review any announcements from your Team Leader
--  ☐ Keep this knowledge base open in a separate tab for quick reference
-
---------------
-
 *Last updated: April 2022 \| Maintained by LeanTech IT Solutions
 Operations Team*
 
