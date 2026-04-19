@@ -30,11 +30,11 @@ Each client company is assigned a dedicated Linux server (AlmaLinux 9)
 hosted in our regional data centers. These servers run the client’s
 internal tools, dashboards, and monitoring systems.
 
-**Standard Server Stack:** 
-- Operating System: AlmaLinux 9 (x86_64) 
-- Access: SSH (key-based or password authentication) 
-- Monitoring: LeanTech Monitor Service (``leantech-monitor``) 
-- Network: Connected via Tailscale VPN mesh
+**Standard Server Stack:**
+-  Operating System: AlmaLinux 9 (x86_64) 
+-  Access: SSH (key-based or password authentication) 
+-  Monitoring: LeanTech Monitor Service (``leantech-monitor``) 
+-  Network: Connected via Tailscale VPN mesh
 
 --------------
 

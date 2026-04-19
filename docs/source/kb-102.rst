@@ -219,9 +219,10 @@ Access to this Team is restricted to Tier 2+. Tier 1 engineers do
 5.2 Direct Messages (DMs)
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Use DMs for: - Private questions to your Team Leader - Sensitive matters
-that should not be posted in a public channel - Quick coordination with
-a specific colleague on a shared ticket
+Use DMs for: 
+-  Private questions to your Team Leader
+-  Sensitive matters that should not be posted in a public channel
+-  Quick coordination with a specific colleague on a shared ticket
 
 Do **not** use DMs for: - Escalations (always use the designated
 escalation channels for traceability) - Client communication (always use

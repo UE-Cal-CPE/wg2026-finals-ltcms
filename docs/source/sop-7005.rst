@@ -41,10 +41,12 @@ Step 2 — Issue Intake
 ~~~~~~~~~~~~~~~~~~~~~
 
 Listen to the client’s description of the issue. Ask clarifying
-questions. Take note of key details: - What system or service is
-affected? - When did the issue start? - What error messages (if any) is
-the client seeing? - Is anyone else at their company experiencing the
-same issue?
+questions. Take note of key details:
+
+-  What system or service is affected? 
+-  When did the issue start?
+-  What error messages (if any) is the client seeing?
+-  Is anyone else at their company experiencing the same issue?
 
 Open the incident ticket immediately and start **Live Incident Notes**
 at the beginning of the call.
@@ -58,7 +60,7 @@ at the beginning of the call.
 Step 3 — Issue Categorization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Using **:doc:`KB-155 <kb-155>` (Escalation Policy)**, determine the tier level of the
+Using :doc:`KB-155 <kb-155>` **(Escalation Policy)**, determine the tier level of the
 incident:
 
 -  **Is this a single-company issue?** → Likely **Tier 1**

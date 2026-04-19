@@ -207,11 +207,11 @@ Team Leader or Operations Manager.*
 
    source/kb-102
    source/kb-155
-   source/kb-612
    source/kb-253
    source/kb-310
    source/kb-450
    source/kb-601
+   source/kb-612
 
 
 .. toctree::
