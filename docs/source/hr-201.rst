@@ -326,6 +326,13 @@ An escalation is classified as “false” when:
    - The engineer did not complete reasonable diagnostic steps before escalating 
    - No documented justification was provided for the escalation decision
 
+If investigation shows a repeated team-wide pattern (for example,
+multiple members from the same team making the same false escalation
+error within the same review period), management may initiate a
+team-level corrective review. Team coaching may be applied to the whole
+team, while formal disciplinary action remains evidence-based per
+individual involvement.
+
 .. note::
    **Important:** If you are unsure whether to escalate, consult with a
    peer on ``#tier1-support`` or contact your Team Leader before

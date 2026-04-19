@@ -3,7 +3,7 @@ KB-102: Microsoft Teams Structure and Channel Directory
 
 **LeanTech IT Solutions — Internal Knowledge Base**
 
-**Document ID:** KB-105
+**Document ID:** KB-102
 
 **Effective Date:** January 10, 2020
 
@@ -24,172 +24,111 @@ Operations Manager approval.
 
 --------------
 
-2. Teams Overview
------------------
-
-LeanTech IT Solutions maintains the following Teams within Microsoft
-Teams:
-
-+-----------------------+-----------------------+-----------------------+
-| Team                  | Purpose               | Membership            |
-+=======================+=======================+=======================+
-| **LeanTech —          | Primary workspace for | All IT support staff, |
-| Operations**          | all IT support        | Team Leaders,         |
-|                       | operations            | Operations Managers   |
-+-----------------------+-----------------------+-----------------------+
-| **LeanTech —          | Tier 2 and Tier 3     | Tier 2 Engineers,     |
-| Engineering**         | engineering           | Tier 3 Specialists,   |
-|                       | collaboration         | Engineering Managers  |
-+-----------------------+-----------------------+-----------------------+
-| **LeanTech —          | Leadership            | Team Leaders,         |
-| Management**          | coordination and      | Operations Managers,  |
-|                       | strategic planning    | Directors             |
-+-----------------------+-----------------------+-----------------------+
-| **LeanTech — HR &     | Human resources,      | HR staff, all         |
-| Admin**               | payroll, and          | employees (limited    |
-|                       | administrative        | channels)             |
-|                       | matters               |                       |
-+-----------------------+-----------------------+-----------------------+
-| **LeanTech —          | Onboarding,           | Trainers, trainees,   |
-| Training**            | certifications, and   | all staff (read-only  |
-|                       | continuing education  | for reference         |
-|                       |                       | channels)             |
-+-----------------------+-----------------------+-----------------------+
-
---------------
-
-3. LeanTech — Operations (Channel Directory)
+2. LeanTech — Operations (Channel Directory)
 --------------------------------------------
 
 This is the primary Team used by Tier 1 Support Engineers during their
 shift.
 
-3.1 General Channels
+2.1 General Channels
 ~~~~~~~~~~~~~~~~~~~~
 
-+-----------------+-----------------+-----------------+-----------------+
-| Channel         | Purpose         | Who Can Post    | Notifications   |
-+=================+=================+=================+=================+
-| ``#general``    | Company-wide    | Operations      | All members     |
-|                 | announcements   | Managers only   | notified        |
-|                 | from management |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| ``#s            | Start-of-shift  | Team Leaders    | All on-shift    |
-| hift-briefing`` | updates, known  |                 | members         |
-|                 | issues,         |                 |                 |
-|                 | carryover       |                 |                 |
-|                 | tickets from    |                 |                 |
-|                 | previous shift  |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| `               | Informal,       | All members     | Muted by        |
-| `#watercooler`` | non-work        |                 | default         |
-|                 | conversation    |                 |                 |
-|                 | (keep it        |                 |                 |
-|                 | respectful)     |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
+.. list-table::
+    :header-rows: 1
+    :widths: 22 34 22 22
 
-3.2 Support Channels
+    * - Channel
+      - Purpose
+      - Who Can Post
+      - Notifications
+    * - ``#general``
+      - Company-wide announcements from management
+      - Operations Managers only
+      - All members notified
+    * - ``#shift-briefing``
+      - Start-of-shift updates, known issues, and carryover tickets from the previous shift
+      - Team Leaders
+      - All on-shift members
+    * - ``#chill-zone``
+      - Informal, non-work conversation (keep it respectful)
+      - All members
+      - Muted by default
+
+2.2 Support Channels
 ~~~~~~~~~~~~~~~~~~~~
 
-+-----------------+-----------------+-----------------+-----------------+
-| Channel         | Purpose         | Who Can Post    | Usage           |
-|                 |                 |                 | Guidelines      |
-+=================+=================+=================+=================+
-| ``#             | Real-time peer  | All Tier 1      | Use threads.    |
-| tier1-support`` | collaboration   | engineers       | Tag specific    |
-|                 | for Tier 1      |                 | people with     |
-|                 | engineers. Ask  |                 | ``@name`` for   |
-|                 | questions,      |                 | urgent          |
-|                 | share findings, |                 | questions. Do   |
-|                 | request a       |                 | not post        |
-|                 | second opinion  |                 | c               |
-|                 | before          |                 | lient-sensitive |
-|                 | escalating.     |                 | data — use      |
-|                 |                 |                 | ticket IDs      |
-|                 |                 |                 | instead.        |
-+-----------------+-----------------+-----------------+-----------------+
-| ``#tie          | **Escalation    | Tier 1          | Include: Ticket |
-| r2-escalation`` | channel for     | engineers (to   | ID, affected    |
-|                 | Tier 2.** Only  | escalate), Tier | com             |
-|                 | post here when  | 2 engineers (to | pany/companies, |
-|                 | the incident    | respond)        | summary of      |
-|                 | meets Tier 2    |                 | symptoms, what  |
-|                 | criteria per    |                 | you’ve already  |
-|                 | KB-155.         |                 | tried, why you  |
-|                 |                 |                 | believe this is |
-|                 |                 |                 | Tier 2.         |
-+-----------------+-----------------+-----------------+-----------------+
-| ``#tie          | **Escalation    | All staff (to   | Include: Ticket |
-| r3-escalation`` | channel for     | report), Tier 3 | ID, affected    |
-|                 | Tier 3          | specialists (to | system, nature  |
-|                 | (Security       | respond)        | of the security |
-|                 | Incidents).**   |                 | concern,        |
-|                 | Only post here  |                 | timestamp of    |
-|                 | for confirmed   |                 | discovery.      |
-|                 | or suspected    |                 | After posting,  |
-|                 | security        |                 | immediately DM  |
-|                 | breaches, data  |                 | your Team       |
-|                 | loss, or server |                 | Leader.         |
-|                 | compromises.    |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
+.. list-table::
+    :header-rows: 1
+    :widths: 20 30 24 36
 
-3.3 Client-Specific Channels
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    * - Channel
+      - Purpose
+      - Who Can Post
+      - Usage Guidelines
+    * - ``#tier1-support``
+      - Direct communication medium with client(s) and real-time peer collaboration for Tier 1 engineers.
+      - All Tier 1 engineers and Client(s)
+      - Use threads. Tag specific people with ``@name`` for urgent questions. Do not post client-sensitive data; use ticket IDs instead.
+    * - ``#tier2-escalation``
+      - **Escalation channel for Tier 2.** Only post here when the incident meets Tier 2 criteria per KB-155.
+      - Tier 1 engineers (to escalate), Tier 2 engineers (to respond)
+      - Include ticket ID, affected company/companies, summary of symptoms, what you have already tried, and why you believe this is Tier 2.
+    * - ``#tier3-escalation``
+      - **Escalation channel for Tier 3 (Security Incidents).** Only post here for confirmed or suspected security breaches, data loss, or server compromises.
+      - All staff (to report), Tier 3 specialists (to respond)
+      - Include ticket ID, affected system, nature of the security concern, and timestamp of discovery. After posting, immediately DM your Team Leader.
 
-Each client company with an active managed services contract has a
-dedicated channel. These channels are used for client-facing
-communication when the client’s contact method is MS Teams.
-
-+-----------------------+-----------------------+-----------------------+
-| Channel Naming        | Example               | Purpose               |
-| Convention            |                       |                       |
-+=======================+=======================+=======================+
-| ``#cl                 | ``#client-dpwhims``   | Direct communication  |
-| ient-{company_code}`` |                       | channel with the      |
-|                       |                       | client’s designated   |
-|                       |                       | contacts              |
-+-----------------------+-----------------------+-----------------------+
-|                       | ``#client-northgate`` |                       |
-+-----------------------+-----------------------+-----------------------+
-|                       | ``#                   |                       |
-|                       | client-trendmicroph`` |                       |
-+-----------------------+-----------------------+-----------------------+
-
-**Rules for client channels:** 
+**Rules for client support channels:** 
    - Use professional language at all times (refer to SOP-7005) 
    - Do not discuss internal LeanTech matters, other clients, or internal policies 
    - Do not share server credentials, IP addresses, or system architecture details in client channels 
    - All client communication in these channels is logged and subject to QA review
 
-3.4 Operational Channels
+2.3 Client-Specific Support Team Channels
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Each client company with an active managed services contract has a
+dedicated channel for the support teams handling their resources.
+These channels are used by the assigned Tier 1 engineers to communicate 
+with peers and their Team Leader about that client’s issues.
+
+.. list-table::
+    :header-rows: 1
+    :widths: 30 24 46
+
+    * - Channel Naming Convention
+      - Example
+      - Purpose
+    * - ``#team-{company_code}``
+      - ``#team-google``
+      - Communication channel for the Tier 1 support team assigned to that client. Used for internal coordination and updates related to that client’s tickets and issues.
+
+2.4 Operational Channels
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-+-----------------------+-----------------------+-----------------------+
-| Channel               | Purpose               | Who Can Post          |
-+=======================+=======================+=======================+
-| ``#incident-log``     | Automated feed of new | System (automated)    |
-|                       | and updated incident  |                       |
-|                       | tickets from the      |                       |
-|                       | ticketing system      |                       |
-+-----------------------+-----------------------+-----------------------+
-| ``#m                  | Planned maintenance   | Team Leaders,         |
-| aintenance-schedule`` | windows, scheduled    | Operations Managers   |
-|                       | downtime              |                       |
-|                       | notifications         |                       |
-+-----------------------+-----------------------+-----------------------+
-| ``#outage-tracker``   | Active outage         | Team Leaders,         |
-|                       | tracking for          | Operations Managers   |
-|                       | incidents affecting   |                       |
-|                       | multiple clients      |                       |
-+-----------------------+-----------------------+-----------------------+
-| ``#change-requests``  | Change request        | Tier 2 engineers,     |
-|                       | submissions and       | Operations Managers   |
-|                       | approvals             |                       |
-+-----------------------+-----------------------+-----------------------+
+.. list-table::
+    :header-rows: 1
+    :widths: 26 44 30
+
+    * - Channel
+      - Purpose
+      - Who Can Post
+    * - ``#incident-log``
+      - Automated feed of new and updated incident tickets from the ticketing system
+      - System (automated)
+    * - ``#maintenance-schedule``
+      - Planned maintenance windows, scheduled downtime notifications
+      - Team Leaders, Operations Managers
+    * - ``#outage-tracker``
+      - Active outage tracking for incidents affecting multiple clients
+      - Team Leaders, Operations Managers
+    * - ``#change-requests``
+      - Change request submissions and approvals
+      - Tier 2 engineers, Operations Managers
 
 --------------
 
-4. LeanTech — Engineering (Channel Directory)
+3. LeanTech — Engineering (Channel Directory)
 ---------------------------------------------
 
 Access to this Team is restricted to Tier 2+. Tier 1 engineers do
@@ -207,7 +146,7 @@ Access to this Team is restricted to Tier 2+. Tier 1 engineers do
 | ``#eng-security``                 | Security incident response        |
 |                                   | coordination                      |
 +-----------------------------------+-----------------------------------+
-| ``#eng-postmortem``               | Root cause analysis and           |
+| ``#eng-post-incident``            | Root cause analysis and           |
 |                                   | post-incident reviews             |
 +-----------------------------------+-----------------------------------+
 | ``#eng-automation``               | Tooling, scripting, and           |
@@ -223,7 +162,7 @@ Access to this Team is restricted to Tier 2+. Tier 1 engineers do
 
 --------------
 
-5. LeanTech — HR & Admin (Relevant Channels)
+4. LeanTech — HR & Admin (Relevant Channels)
 --------------------------------------------
 
 +-----------------------+-----------------------+-----------------------+
@@ -246,17 +185,17 @@ Access to this Team is restricted to Tier 2+. Tier 1 engineers do
 
 --------------
 
-6. Communication Protocols
+5. Communication Protocols
 --------------------------
 
-6.1 When to Use Which Channel
+5.1 When to Use Which Channel
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 +-----------------------------------+-----------------------------------+
 | Scenario                          | Channel                           |
 +===================================+===================================+
-| You need help troubleshooting a   | ``#tier1-support``                |
-| Tier 1 issue                      |                                   |
+| There is an active client call    | ``#tier1-support``                |
+| raising a Tier 1 issue            |                                   |
 +-----------------------------------+-----------------------------------+
 | You need to escalate to Tier 2    | ``#tier2-escalation``             |
 | (meets KB-155 criteria)           |                                   |
@@ -264,19 +203,19 @@ Access to this Team is restricted to Tier 2+. Tier 1 engineers do
 | You suspect a security breach     | ``#tier3-escalation`` + DM to     |
 |                                   | Team Leader                       |
 +-----------------------------------+-----------------------------------+
-| You want to communicate with a    | ``#client-{company_code}``        |
+| You want to communicate with a    | ``#team-{company_code}``          |
 | client                            |                                   |
 +-----------------------------------+-----------------------------------+
 | You have an HR question           | ``#hr-helpdesk``                  |
 +-----------------------------------+-----------------------------------+
-| You want to chat informally with  | ``#watercooler``                  |
+| You want to chat informally with  | ``#chill-zone``                   |
 | colleagues                        |                                   |
 +-----------------------------------+-----------------------------------+
 | You need to report a personal     | DM to HR or ``#hr-helpdesk``      |
 | issue (NTE, grievance)            | (private)                         |
 +-----------------------------------+-----------------------------------+
 
-6.2 Direct Messages (DMs)
+5.2 Direct Messages (DMs)
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Use DMs for: - Private questions to your Team Leader - Sensitive matters
@@ -288,7 +227,7 @@ escalation channels for traceability) - Client communication (always use
 the client channel for audit purposes) - Sharing credentials or
 sensitive data (use the approved credential management system)
 
-6.3 Tagging and Mentions
+5.3 Tagging and Mentions
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 +-----------------------------------+-----------------------------------+
@@ -300,7 +239,7 @@ sensitive data (use the approved credential management system)
 | ``@Team Leaders``                 | Urgent matter requiring any       |
 |                                   | available Team Leader’s attention |
 +-----------------------------------+-----------------------------------+
-| ``@Tier2-OnCall``                 | Urgent Tier 2 escalation when no  |
+| ``@Tier 2 OnCall``                | Urgent Tier 2 escalation when no  |
 |                                   | response in ``#tier2-escalation`` |
 |                                   | within 15 minutes                 |
 +-----------------------------------+-----------------------------------+
@@ -309,7 +248,7 @@ sensitive data (use the approved credential management system)
 |                                   | to notify all members.            |
 +-----------------------------------+-----------------------------------+
 
-6.4 Response Expectations
+5.4 Response Expectations
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ========================== =========================================
@@ -324,7 +263,7 @@ Channel                    Expected Response Time
 
 --------------
 
-7. Channel Etiquette
+6. Channel Etiquette
 --------------------
 
 -  **Use threads.** Reply in threads to keep channels organized,
@@ -333,7 +272,7 @@ Channel                    Expected Response Time
    need. Avoid walls of text.
 -  **Use ticket IDs.** Reference ticket numbers (e.g.,
    ``INC-2026-04-00142``) instead of repeating full issue descriptions.
--  **No memes or GIFs in work channels.** Keep ``#watercooler`` for
+-  **No memes or GIFs in work channels.** Keep ``#chill-zone`` for
    informal content.
 -  **Respect do-not-disturb hours.** Do not tag off-shift colleagues
    unless it is a Tier 3 emergency.
