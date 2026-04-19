@@ -5,6 +5,10 @@ Welcome to the LeanTech Knowledge Hub
    and reference materials you need to deliver fast, accurate, and 
    professional support to our clients.
 
+.. rst-class:: access-status-bar
+
+**Access Level:** Tier 1 Support (T1-ITS) - Only Tier 1 Support docs are currently accessible.
+
 --------------
 
 About This Knowledge Base
@@ -189,9 +193,6 @@ Operations Team*
 
 *For questions about this knowledge base, contact your
 Team Leader or Operations Manager.*
-
-.. sidebar:: Sidebar Title
-   :subtitle: Optional Subtitle
 
 .. toctree::
    :maxdepth: 1

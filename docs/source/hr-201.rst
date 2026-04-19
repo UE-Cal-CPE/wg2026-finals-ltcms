@@ -230,7 +230,7 @@ of action taken depends on the severity and frequency of the infraction.
 | Step            | Action          | Applies To      | Duration on     |
 |                 |                 |                 | Record          |
 +=================+=================+=================+=================+
-| **Step 1**      | **Verbal        | Minor           | 60 days         |
+| **1**           | **Verbal        | Minor           | 60 days         |
 |                 | Warning** —     | infractions     |                 |
 |                 | Documented      | (1st            |                 |
 |                 | conversation    | occurrence)     |                 |
@@ -243,7 +243,7 @@ of action taken depends on the severity and frequency of the infraction.
 |                 | corrective      |                 |                 |
 |                 | behavior.       |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| **Step 2**      | **Written       | Minor           | 90 days         |
+| **2**           | **Written       | Minor           | 90 days         |
 |                 | Warning** — NTE | infractions     |                 |
 |                 | issued first    | (2nd            |                 |
 |                 | (Section 5).    | occurrence) or  |                 |
@@ -258,7 +258,7 @@ of action taken depends on the severity and frequency of the infraction.
 |                 | employee’s HR   |                 |                 |
 |                 | file.           |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| **Step 3**      | **Final Written | Major           | 180 days        |
+| **3**           | **Final Written | Major           | 180 days        |
 |                 | Warning with    | infractions     |                 |
 |                 | Performance     | (2nd            |                 |
 |                 | Improvement     | occurrence) or  |                 |
@@ -279,7 +279,7 @@ of action taken depends on the severity and frequency of the infraction.
 |                 | proceeds to     |                 |                 |
 |                 | Step 4.         |                 |                 |
 +-----------------+-----------------+-----------------+-----------------+
-| **Step 4**      | **Suspension or | Failure to meet | Permanent       |
+| **4**           | **Suspension or | Failure to meet | Permanent       |
 |                 | Termination** — | PIP, repeated   |                 |
 |                 | NTE issued      | major           |                 |
 |                 | first.          | infractions, or |                 |
@@ -305,7 +305,7 @@ of action taken depends on the severity and frequency of the infraction.
 
 --------------
 
-7. False Escalation Policy
+1. False Escalation Policy
 --------------------------
 
 Given the operational impact of unnecessary escalations, the following

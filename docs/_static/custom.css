@@ -8,3 +8,17 @@
 .wy-table-responsive {
     overflow: visible !important;
 }
+
+/* Access level callout on the home page */
+.access-status-bar {
+    margin: 0.75rem 0 1rem;
+    padding: 0.65rem 0.85rem;
+    border-left: 4px solid #1a6f9b;
+    border-radius: 4px;
+    background: #eaf5fb;
+    color: #11384d;
+}
+
+.access-status-bar strong {
+    font-weight: 700;
+}
