@@ -1,0 +1,194 @@
+Escalated Incident Review (EIR) Template
+========================================
+
+**LeanTech IT Solutions — Standard Template**
+
+**Document ID:** KB-210
+
+**Effective Date:** February 11, 2020
+
+**Last Reviewed:** June 30, 2021
+
+**Classification:** Internal — Tier 2/Tier 3 Support Staff
+
+Use this template for **Tier 2** and **Tier 3** incidents only.
+
+Page 1 - Incident Overview
+--------------------------
+
+Use the exact heading format below:
+
+::
+
+   <Call Reference No. 01> - <Incident Title>
+   <P1/P2/P3> Escalated Incident Review (EIR)
+
+Required header fields:
+
+-  **Date:**
+-  **Author(s):**
+-  **Status:** DRAFT / FINAL
+
+Stakeholders
+~~~~~~~~~~~~
+
+*(A list of involved parties required to complete the lessons learned
+and inform actions.)*
+
+-  **Priority 1 Stakeholders:**
+-  **Other Stakeholders:**
+
+Summary
+~~~~~~~
+
+*(Brief summary of what happened, how long the platform was down, and
+how service was restored.)*
+
+Impact
+~~~~~~
+
+*(Did we lose anything? What was the impact to stakeholders and their
+customers? Was there slowdown, outage, or processing delay?)*
+
+Timeline
+~~~~~~~~
+
+Write this line exactly on Page 1:
+
+::
+
+   Timeline - See appendix
+
+Decisions
+~~~~~~~~~
+
+*(Key decisions made during the incident and why.)*
+
+Root and Cause Trigger
+~~~~~~~~~~~~~~~~~~~~~~
+
+*(What caused the impact above, in order, and what other issues did this
+cascade onto?)*
+
+Resolution
+~~~~~~~~~~
+
+*(What did we do to mitigate or solve the issue?)*
+
+Supporting Information
+~~~~~~~~~~~~~~~~~~~~~~
+
+*(Links to dashboards, command outputs, references, and other material
+used during the incident.)*
+
+Page 2 - Lessons Learned
+------------------------
+
+LESSONS LEARNED
+~~~~~~~~~~~~~~~
+
+Performance Factors
+~~~~~~~~~~~~~~~~~~~
+
++----------------------------------+----------------------------------+
+| Score                            | Meaning                          |
++==================================+==================================+
+| GOOD / RAPID                     | Exceeded expectations            |
++----------------------------------+----------------------------------+
+| FAIR / IN LINE WITH COMMITMENTS  | Met expected standard            |
++----------------------------------+----------------------------------+
+| REQUIRING IMPROVEMENT            | Below expected standard          |
++----------------------------------+----------------------------------+
+| NOT APPLICABLE                   | Not relevant to this incident    |
++----------------------------------+----------------------------------+
+
+Assessment Table
+~~~~~~~~~~~~~~~~
+
+Fill one row per area with **Score** and **Notes**.
+
++-----------------------------------+-----------+-----------------------+
+| Area                              | Score     | Notes                 |
++===================================+===========+=======================+
+| MONITORING EFFECTIVENESS - Was    |           |                       |
+| the right monitoring in place to  |           |                       |
+| highlight the issue/aid diagnosis?|           |                       |
++-----------------------------------+-----------+-----------------------+
+| RESPONSE TIME - Was alerting      |           |                       |
+| escalated in a timely fashion and |           |                       |
+| how quickly was the initial call  |           |                       |
+| to action picked up?              |           |                       |
++-----------------------------------+-----------+-----------------------+
+| IMPACT ASSESSMENT - Was the right |           |                       |
+| priority assigned to the call?    |           |                       |
++-----------------------------------+-----------+-----------------------+
+| ATTENDANCE - Did we get the right |           |                       |
+| people in the room at the right   |           |                       |
+| time?                             |           |                       |
++-----------------------------------+-----------+-----------------------+
+| COMMUNICATION EFFECTIVENESS -     |           |                       |
+| Were the team able to communicate |           |                       |
+| effectively using the available   |           |                       |
+| channels?                         |           |                       |
++-----------------------------------+-----------+-----------------------+
+| INCIDENT RESOLUTION - Time to     |           |                       |
+| resolve the incident taking into  |           |                       |
+| account the size and complexity   |           |                       |
++-----------------------------------+-----------+-----------------------+
+| CUSTOMER SATISFACTION - Did we    |           |                       |
+| manage to avoid any reputation    |           |                       |
+| damage or impact?                 |           |                       |
++-----------------------------------+-----------+-----------------------+
+| KNOWLEDGE DOCUMENTATION - Did the |           |                       |
+| right knowledge exist to aid      |           |                       |
+| diagnosis and resolution?         |           |                       |
++-----------------------------------+-----------+-----------------------+
+| CHANGE CONTROL - Did we take      |           |                       |
+| effective measures when applying  |           |                       |
+| changes?                          |           |                       |
++-----------------------------------+-----------+-----------------------+
+
+Additional information:
+
+-  **What went well**
+-  **What went wrong**
+-  **Where we were lucky**
+
+ACTION ITEMS
+~~~~~~~~~~~~
+
++----------------------+----------------------+-----------+-----------+----------+
+| Action Item          | Type of work         | Owner     | Ticket    | Priority |
++======================+======================+===========+===========+==========+
+|                      |                      |           |           |          |
++----------------------+----------------------+-----------+-----------+----------+
+
+Page 3+ - Appendix
+------------------
+
+Appendix - Detailed Timeline
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Use time-ordered bullets with exact timestamps.
+
+Template:
+
+::
+
+   <Month DD, YYYY>
+   - HH:MM AM/PM <event summary>
+   - HH:MM AM/PM <event summary>
+   - HH:MM AM/PM <event summary>
+
+Evidence (screenshots and artifacts)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+For each timeline event, attach or reference supporting evidence.
+
++------------------+-----------------+------------------------------+
+| Timeline Entry   | Evidence Type   | File / Link / Notes          |
++==================+=================+==============================+
+| HH:MM AM/PM      | Screenshot      |                              |
++------------------+-----------------+------------------------------+
+| HH:MM AM/PM      | Command Output  |                              |
++------------------+-----------------+------------------------------+

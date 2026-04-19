@@ -102,7 +102,7 @@ Category 2: Technical Competence (25 points)
 | Appropriate tools and | 5                     | Used the right        |
 | commands used         |                       | commands for the      |
 |                       |                       | situation (refer to   |
-|                       |                       | KB-002)               |
+|                       |                       | KB-601 and KB-253)    |
 +-----------------------+-----------------------+-----------------------+
 
 Category 3: Escalation Judgment (20 points)
@@ -120,7 +120,10 @@ Category 3: Escalation Judgment (20 points)
 | justification         |                       | provided clear        |
 |                       |                       | reasoning. If not,    |
 |                       |                       | documented why it was |
-|                       |                       | resolved at T1        |
+|                       |                       | resolved at T1. For   |
+|                       |                       | T2/T3 incidents, EIR  |
+|                       |                       | documentation is      |
+|                       |                       | included.             |
 +-----------------------+-----------------------+-----------------------+
 
 ..
@@ -136,7 +139,8 @@ Category 4: Documentation (20 points)
 +=======================+=======================+=======================+
 | Complete ticket       | 8                     | All required fields   |
 | fields                |                       | in SOP-7010 are       |
-|                       |                       | populated             |
+|                       |                       | populated, including  |
+|                       |                       | Live Incident Notes.  |
 +-----------------------+-----------------------+-----------------------+
 | Accurate resolution   | 7                     | Steps taken are       |
 | notes                 |                       | clearly documented    |
@@ -145,7 +149,8 @@ Category 4: Documentation (20 points)
 | Proper categorization | 5                     | Correct severity,     |
 | and tagging           |                       | affected system, and  |
 |                       |                       | resolution type       |
-|                       |                       | selected              |
+|                       |                       | selected; EIR is      |
+|                       |                       | included for T2/T3.   |
 +-----------------------+-----------------------+-----------------------+
 
 Category 5: SLA Compliance (10 points)
@@ -216,5 +221,26 @@ Engineers who consistently score 90+ on QA evaluations are eligible for:
 **Quarterly Performance Bonus** (based on average QA score and SLA
 compliance) - Priority consideration for promotion to Tier 2 or Team
 Leader positions
+
+--------------
+
+7. Team-Level Accountability Trigger
+------------------------------------
+
+When QA findings show a repeated process failure across an entire
+support team, QA and Operations may initiate a team-level corrective
+review.
+
+A team-level review may be triggered when **three or more incidents**
+from the same team within a 30-day period show the same process failure
+(for example: repeated false escalations or repeated missing escalation
+documentation).
+
+Possible actions include:
+
+1. Mandatory team coaching session with the Team Leader
+2. Temporary team checklist requirement for all incidents
+3. Individual HR-201 review for each involved member when evidence
+   supports shared responsibility
 
 --------------

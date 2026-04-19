@@ -27,8 +27,15 @@ assurance, and knowledge sharing.
 ------------------
 
 A new incident ticket must be created for **every client interaction**,
-including: - Phone calls - Microsoft Teams messages - Email inquiries -
-Walk-in requests (if applicable)
+including:
+
+-  Phone calls
+-  Microsoft Teams messages or calls
+-  Email inquiries
+-  Walk-in requests (if applicable)
+
+Start **Live Incident Notes** at first contact and update them with
+timestamps throughout investigation, resolution, or escalation.
 
 Do **not** combine multiple unrelated issues into a single ticket. Each
 distinct issue requires its own ticket.
@@ -81,6 +88,10 @@ Every incident ticket must contain the following information:
 |                                   | including any error messages or   |
 |                                   | codes                             |
 +-----------------------------------+-----------------------------------+
+| **Live Incident Notes**           | Time-stamped notes captured from  |
+|                                   | first client contact through      |
+|                                   | resolution or escalation          |
++-----------------------------------+-----------------------------------+
 | **Severity**                      | Low / Medium / High / Critical    |
 |                                   | (refer to KB-601 for error code   |
 |                                   | severity)                         |
@@ -109,6 +120,12 @@ Every incident ticket must contain the following information:
 +-----------------------------------+-----------------------------------+
 | **Escalation**                    | Was the issue escalated? If yes,  |
 |                                   | to which tier and why?            |
++-----------------------------------+-----------------------------------+
+| **Escalated Incident Review       | Required for Tier 2 / Tier 3      |
+| (EIR)**                           | incidents only. Convert Live      |
+|                                   | Incident Notes into the required  |
+|                                   | page-by-page EIR format           |
+|                                   | (see Section 5.2).               |
 +-----------------------------------+-----------------------------------+
 | **Status**                        | Open / In Progress / Resolved /   |
 |                                   | Closed                            |
@@ -163,6 +180,30 @@ Don’t:
    resolved (or after 48 hours with no client response)
 -  **In Progress → Escalated:** Only when escalation criteria per KB-155
    are met
+
+5.1 Live Incident Notes and EIR Flow
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. **Start of call:** Open the ticket and begin Live Incident Notes.
+2. **If the incident remains Tier 1:** Complete documentation in the
+   ticket; no separate EIR is required.
+3. **If the incident is escalated to Tier 2/Tier 3:** Convert Live
+   Incident Notes into an **Escalated Incident Review (EIR)** and submit
+   it through your team’s current process.
+
+5.2 EIR Required Format
+~~~~~~~~~~~~~~~~~~~~~~~
+
+All EIR submissions must follow the page sequence and section naming in
+:doc:`KB-210 EIR Template <kb-210>`.
+
+-  **Page 1 - Incident Overview:** call reference and title, priority,
+   date, authors, status, stakeholders, summary, impact, decisions,
+   root and cause trigger, resolution, and supporting information.
+-  **Page 2 - Lessons Learned:** performance factors, scored assessment
+   areas, additional information, and action items.
+-  **Page 3+ - Appendix:** detailed timestamped timeline and supporting
+   evidence list.
 
 --------------
 

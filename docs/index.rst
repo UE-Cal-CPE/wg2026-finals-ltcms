@@ -152,7 +152,7 @@ HR Policies
 
 --------------
 
-🚨 Critical Reminders
+Critical Reminders
 ---------------------
 
    These are the most common mistakes that result in disciplinary
@@ -197,6 +197,7 @@ Use this at the start of every shift to make sure you're ready:
 
 *Last updated: April 2022 \| Maintained by LeanTech IT Solutions
 Operations Team*
+
 *For questions about this knowledge base, contact your
 Team Leader or Operations Manager.*
 
@@ -217,6 +218,7 @@ Team Leader or Operations Manager.*
 
    source/kb-102
    source/kb-155
+   source/kb-210
    source/kb-253
    source/kb-310
    source/kb-450

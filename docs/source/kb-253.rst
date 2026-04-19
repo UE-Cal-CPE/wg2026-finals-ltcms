@@ -1,5 +1,5 @@
-KB-253: LeanTech Services Overview
-==================================
+KB-253: LeanTech Monitor Service Overview
+=========================================
 
 **LeanTech IT Solutions — Internal Knowledge Base**
 
@@ -88,21 +88,6 @@ Status Values
 |                                   | after boot).                      |
 +-----------------------------------+-----------------------------------+
 
-Checking Service Status
-~~~~~~~~~~~~~~~~~~~~~~~
-
-**View the monitor log for errors:**
-
-::
-
-   tail -f /var/log/leantech/monitor.log
-
-**Query the status endpoint (from any machine with network access):**
-
-::
-
-   curl http://<server-ip>:9876
-
 --------------
 
 4. Supported Client Companies
@@ -120,12 +105,6 @@ information is managed through our internal CRM system.
 Tier 1 support engineers are provided SSH credentials for their assigned
 client servers. All accounts are members of the ``wheel`` group and have
 ``sudo`` access for administrative tasks.
-
-**Standard access procedure:**
-
-::
-
-   ssh <username>@<server-hostname>
 
 --------------
 

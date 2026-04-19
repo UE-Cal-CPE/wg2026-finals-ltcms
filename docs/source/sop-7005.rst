@@ -46,6 +46,9 @@ affected? - When did the issue start? - What error messages (if any) is
 the client seeing? - Is anyone else at their company experiencing the
 same issue?
 
+Open the incident ticket immediately and start **Live Incident Notes**
+at the beginning of the call.
+
    **Sample Spiel:** “Thank you, [Client Name]. Could you describe what
    you’re experiencing? When did this issue start, and is anyone else at
    your company reporting the same problem?”
@@ -55,7 +58,7 @@ same issue?
 Step 3 — Issue Categorization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Using **KB-001 (Escalation Policy)**, determine the tier level of the
+Using **KB-155 (Escalation Policy)**, determine the tier level of the
 incident:
 
 -  **Is this a single-company issue?** → Likely **Tier 1**
@@ -125,10 +128,10 @@ Client insists on escalation:
 Client demands to speak to a manager:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-   “I understand, [Client Name]. You’re welcome to reach out to our
-   management team. In the meantime, I want to assure you that I’m
-   actively working on resolving your issue so there’s no further delay.
-   Let me continue working on this while you decide.”
+   “I understand why you’d want to speak with a manager, [Client Name],
+   and your concern is valid. I’m treating this as a priority and I’m
+   actively working on your issue right now. I’ll keep you updated every
+   few minutes while I continue the fix so you’re not left waiting.”
 
 Client claims it’s a company-wide outage:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -151,8 +154,9 @@ General de-escalation:
 Step 7 — Documentation
 ~~~~~~~~~~~~~~~~~~~~~~
 
-After resolving the incident, document the following in your ticket
-system:
+Maintain **Live Incident Notes** from first client contact through
+resolution or escalation. Ensure the following details are documented in
+your ticket system:
 
 1. **Client Name and Company**
 2. **Issue Description** — What the client reported
@@ -161,6 +165,10 @@ system:
 5. **Escalation Decision** — Was it escalated? If so, why? If not, why
    not?
 6. **Current Status** — Resolved / Ongoing
+7. **Escalated Incident Review (EIR)** — Required only for Tier 2 or
+   Tier 3 incidents. Convert Live Incident Notes using the required
+   page-by-page EIR format in :doc:`KB-210 EIR Template <kb-210>`. If
+   the incident remains Tier 1, no separate EIR is required.
 
 --------------
 
@@ -168,11 +176,11 @@ system:
 ----------------
 
 -  Always remain professional and calm, even with difficult clients.
--  Follow KB-001 strictly when making escalation decisions.
+-  Follow KB-155 strictly when making escalation decisions.
 -  Document everything — incomplete tickets reflect poorly on team
    performance.
--  When in doubt, consult **KB-002** for troubleshooting commands and
-   **KB-003** for service details.
+-  When in doubt, consult **KB-601** for error-code diagnostics and
+   **KB-253** for service details.
 -  Use the ``#tier1-support`` Teams channel to ask peers for help if
    you’re stuck.
 

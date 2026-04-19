@@ -165,5 +165,21 @@ questions in order:
 
 --------------
 
+5. Documentation Flow for Escalations
+-------------------------------------
+
+To keep incident records complete and consistent:
+
+1. **Start of call:** Open/update the incident ticket and begin
+   **Live Incident Notes** immediately.
+2. **Tier 1 outcome:** Keep notes in the ticket. No separate
+   **Escalated Incident Review (EIR)** is required.
+3. **Tier 2 or Tier 3 outcome:** Convert Live Incident Notes into an
+   **EIR** using the page-by-page format in
+   :doc:`KB-210 EIR Template <kb-210>`, then submit through your
+   team’s current documentation process.
+
+--------------
+
 *For questions about this policy, contact your Team Leader or Operations
 Manager via Microsoft Teams.*

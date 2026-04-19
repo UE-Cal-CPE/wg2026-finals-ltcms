@@ -3,7 +3,7 @@ KB-102: Microsoft Teams Structure and Channel Directory
 
 **LeanTech IT Solutions — Internal Knowledge Base**
 
-**Document ID:** KB-105
+**Document ID:** KB-102
 
 **Effective Date:** January 10, 2020
 
