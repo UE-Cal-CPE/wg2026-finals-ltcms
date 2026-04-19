@@ -204,8 +204,8 @@ Access to this Team is restricted to Tier 2+. Tier 1 engineers do
 | You suspect a security breach     | ``#tier3-escalation`` + DM to     |
 |                                   | Team Leader                       |
 +-----------------------------------+-----------------------------------+
-| You want to communicate with a    | ``#team-{company_code}``          |
-| client                            |                                   |
+| You want to coordinate with your  | ``#team-{company_code}``          |
+| team or ask help from peers       |                                   |
 +-----------------------------------+-----------------------------------+
 | You have an HR question           | ``#hr-helpdesk``                  |
 +-----------------------------------+-----------------------------------+
