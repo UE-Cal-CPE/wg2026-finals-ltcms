@@ -62,7 +62,7 @@ Tier 2 — Escalate to Engineering
 are affected simultaneously **AND** the issues share a **common root
 cause** such as shared infrastructure failure.
 
-**Action:** Escalate via Microsoft Teams to the ``#tier2-escalation``
+**Action:** Escalate via Microsoft Teams to the ``[SUP] Tier 2 Escalation``
 channel. Include: number of affected companies, common symptoms, and
 timeline.
 
@@ -79,7 +79,7 @@ Tier 3 — Security Incident
 exfiltration, ransomware, unauthorized access, or server compromises.
 
 **Action:** Escalate **immediately** via Microsoft Teams to the
-``#tier3-escalation`` channel and notify your Team Leader or Operations
+``[SUP] Tier 3 Escalation`` channel and notify your Team Leader or Operations
 Manager.
 
 **Examples:** 
@@ -100,37 +100,37 @@ step-by-step checklist that follows.
 Quick Reference
 ~~~~~~~~~~~~~~~
 
-+-----------------------+-----------------------+-----------------------+
-| Tier                  | Criteria              | Action                |
-+=======================+=======================+=======================+
-| **1**                 | Isolated issues on    | **Resolve directly.** |
-|                       | individual company    |                       |
-|                       | resources. If <50% of |                       |
-|                       | 300+ serviced         |                       |
-|                       | companies are         |                       |
-|                       | affected, AND issues  |                       |
-|                       | don’t share a common  |                       |
-|                       | infrastructure root   |                       |
-|                       | cause, treat as       |                       |
-|                       | independent T1        |                       |
-|                       | incidents.            |                       |
-+-----------------------+-----------------------+-----------------------+
-| **2**                 | **>50% of serviced    | Escalate to           |
-|                       | companies** (150+)    | ``#tier2-escalation`` |
-|                       | affected              | on MS Teams.          |
-|                       | simultaneously with a |                       |
-|                       | **shared root cause** |                       |
-|                       | (DNS, upstream ISP,   |                       |
-|                       | shared storage).      |                       |
-+-----------------------+-----------------------+-----------------------+
-| **3**                 | Security breaches,    | Escalate              |
-|                       | data                  | **immediately** to    |
-|                       | loss/exfiltration,    | ``#tier3-escalation`` |
-|                       | server compromises.   | on MS Teams, then     |
-|                       |                       | notify your Team      |
-|                       |                       | Leader or Operations  |
-|                       |                       | Manager.              |
-+-----------------------+-----------------------+-----------------------+
++-----------------------+-----------------------+-----------------------------+
+| Tier                  | Criteria              | Action                      |
++=======================+=======================+=============================+
+| **1**                 | Isolated issues on    | **Resolve directly.**       |
+|                       | individual company    |                             |
+|                       | resources. If <50% of |                             |
+|                       | 300+ serviced         |                             |
+|                       | companies are         |                             |
+|                       | affected, AND issues  |                             |
+|                       | don’t share a common  |                             |
+|                       | infrastructure root   |                             |
+|                       | cause, treat as       |                             |
+|                       | independent T1        |                             |
+|                       | incidents.            |                             |
++-----------------------+-----------------------+-----------------------------+
+| **2**                 | **>50% of serviced    | Escalate to                 |
+|                       | companies** (150+)    | ``[SUP] Tier 2 Escalation`` |
+|                       | affected              | on MS Teams.                |
+|                       | simultaneously with a |                             |
+|                       | **shared root cause** |                             |
+|                       | (DNS, upstream ISP,   |                             |
+|                       | shared storage).      |                             |
++-----------------------+-----------------------+-----------------------------+
+| **3**                 | Security breaches,    | Escalate                    |
+|                       | data                  | **immediately** to          |
+|                       | loss/exfiltration,    | ``[SUP] Tier 3 Escalation`` |
+|                       | server compromises.   | on MS Teams, then           |
+|                       |                       | notify your Team            |
+|                       |                       | Leader or Operations        |
+|                       |                       | Manager.                    |
++-----------------------+-----------------------+-----------------------------+
 
 Step-by-Step Checklist
 ~~~~~~~~~~~~~~~~~~~~~~
