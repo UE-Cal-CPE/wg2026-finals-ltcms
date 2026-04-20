@@ -209,7 +209,7 @@ Access to this Team is restricted to Tier 2+. Tier 1 engineers do
 +-----------------------------------+-----------------------------------+
 | You have an HR question           | ``[HR] Helpdesk``                 |
 +-----------------------------------+-----------------------------------+
-| You want to chat informally with  | ``[CHILL] Zone``                  |
+| You want to chat informally with  | ``[GEN] Chill Zone``              |
 | colleagues                        |                                   |
 +-----------------------------------+-----------------------------------+
 | You need to report a personal     | DM to HR or ``[HR] Helpdesk``     |
@@ -264,7 +264,7 @@ Channel                     Expected Response Time
 
 --------------
 
-6. Channel Etiquette
+1. Channel Etiquette
 --------------------
 
 -  **Use threads.** Reply in threads to keep channels organized,
@@ -273,8 +273,8 @@ Channel                     Expected Response Time
    need. Avoid walls of text.
 -  **Use ticket IDs.** Reference ticket numbers (e.g.,
    ``INC-2026-04-00142``) instead of repeating full issue descriptions.
--  **No memes or GIFs in work channels.** Keep ``[CHILL] Zone`` for
-   informal content.
+-  **No memes or GIFs in work channels.** Keep ``[GEN] Chill Zone``
+   for informal content.
 -  **Respect do-not-disturb hours.** Do not tag off-shift colleagues
    unless it is a Tier 3 emergency.
 
